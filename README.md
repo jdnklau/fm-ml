@@ -18,6 +18,7 @@ Machine Learning for Software Development in general.
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
+  - [Clustering](#clustering)
   - [2.3. Machine Learning Systems](#23-machine-learning-systems)
 
 <!-- /TOC -->
@@ -46,6 +47,11 @@ Machine Learning for Software Development in general.
   [[link](https://www.jair.org/index.php/jair/article/view/10628)]
   [[pdf](https://www.jair.org/index.php/jair/article/download/10628/25415/)]
   [[doi](https://doi.org/10.1613/jair.2861)]
+- "MUX: Algorithm Selection for Software Model Checkers",
+  Tulsian et al. (2014)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
+  [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
+  [[doi](https://doi.org/10.1145/2597073.2597080)]
 
 ### 1.2. Synthesis
 
@@ -76,6 +82,27 @@ Machine Learning for Software Development in general.
   Poulding & Feldt (2015)
   [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
   [[doi](https://doi.org/10.1145/2739480.2754767)]
+- "LTL Model Checking Based on Binary Classification of Machine Learning",
+  Zhu et al. (2019)
+  [[link](https://ieeexplore.ieee.org/document/8845603)]
+  [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8845603)]
+  [[doi](https://doi.org/10.1109/ACCESS.2019.2942762)]
+- "Bounded Rational Search for On-the-fly ModelChecking of LTL Properties"
+  Behjati et al. (2009)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
+  [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-642-11623-0_17)]
+- "Machine Learning Methods in Statistical ModelChecking and System Design -
+   Tutorial",
+  Bortolussi et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-23820-3_23)]
+  [[pdf](https://arts.units.it/retrieve/handle/11368/2860877/69589/RV2015_tutorial-post.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-23820-3_23)]
+- "Verification of Markov Decision Processesusing Learning Algorithms",
+  Brázdil et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-11936-6_8)]
+  [[pdf](https://arxiv.org/pdf/1402.2967.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-11936-6_8)]
 
 ### 1.5. Automated Theorem Proving
 
@@ -203,6 +230,15 @@ Machine Learning for Software Development in general.
   [[link](https://drops.dagstuhl.de/opus/volltexte/2020/12815/)]
   [[pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12815/pdf/LIPIcs-CONCUR-2020-3.pdf)]
   [[doi](https://doi.org/10.4230/LIPIcs.CONCUR.2020.3)]
+
+### Clustering
+
+- "A Formal Algorithm for Verifying the Validity of Clustering Results Based
+  on Model Checking",
+  Huang et al. (2014)
+  [[link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090109)]
+  [[pdf](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0090109&type=printable)]
+  [[doi](https://doi.org/10.1371/journal.pone.0090109)]
 
 ### 2.3. Machine Learning Systems
 
