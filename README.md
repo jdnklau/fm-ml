@@ -18,8 +18,8 @@ Machine Learning for Software Development in general.
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
-  - [Clustering](#clustering)
-  - [2.3. Machine Learning Systems](#23-machine-learning-systems)
+  - [2.3. Clustering](#23-clustering)
+  - [2.4. Machine Learning Systems](#24-machine-learning-systems)
 
 <!-- /TOC -->
 
@@ -231,7 +231,7 @@ Machine Learning for Software Development in general.
   [[pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12815/pdf/LIPIcs-CONCUR-2020-3.pdf)]
   [[doi](https://doi.org/10.4230/LIPIcs.CONCUR.2020.3)]
 
-### Clustering
+### 2.3. Clustering
 
 - "A Formal Algorithm for Verifying the Validity of Clustering Results Based
   on Model Checking",
@@ -240,7 +240,7 @@ Machine Learning for Software Development in general.
   [[pdf](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0090109&type=printable)]
   [[doi](https://doi.org/10.1371/journal.pone.0090109)]
 
-### 2.3. Machine Learning Systems
+### 2.4. Machine Learning Systems
 
 - "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
   Selsam et al. (2017)
