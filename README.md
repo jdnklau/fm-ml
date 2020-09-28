@@ -13,13 +13,14 @@ Machine Learning for Software Development in general.
   - [1.3. Feature Selection](#13-feature-selection)
   - [1.4. Model Checking](#14-model-checking)
   - [1.5. Automated Theorem Proving](#15-automated-theorem-proving)
-  - [1.6. Executable Specifications](#16-executable-specifications)
-  - [1.7. Applied ML for General Software Development](#17-applied-ml-for-general-software-development)
+  - [1.6. Applied ML for General Software Development](#16-applied-ml-for-general-software-development)
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
   - [2.3. Clustering](#23-clustering)
   - [2.4. Machine Learning Systems](#24-machine-learning-systems)
+- [3. Integrated approaches](#3-integrated-approaches)
+  - [3.1. Executable Specifications](#31-executable-specifications)
 
 <!-- /TOC -->
 
@@ -156,21 +157,14 @@ Machine Learning for Software Development in general.
   [[pdf](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-30942-8_39)]
 
-### 1.6. Executable Specifications
-
-- "Labor Division with Movable Walls: Composing Executable Specifications with
-  Machine Learning and Search (Blue Sky Idea)"
-  Harel et al. (2019)
-  [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048)]
-  [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048/4921)]
-  [[doi](https://doi.org/10.1609/aaai.v33i01.33019770)]
-
-### 1.7. Applied ML for General Software Development
+### 1.6. Applied ML for General Software Development
 
 - "Machine Learning for Software Engineering: A Systematic Mapping",
   Shafiq et al. (2020)
   [[link](https://arxiv.org/abs/2005.13299)]
   [[pdf](https://arxiv.org/pdf/2005.13299)]
+- "Awesome Machine Learning On Source Code"
+  [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
 ## 2. Applied Formal Methods for Machine Learning
 
@@ -246,3 +240,14 @@ Machine Learning for Software Development in general.
   Selsam et al. (2017)
   [[link](https://arxiv.org/abs/1706.08605)]
   [[pdf](https://arxiv.org/pdf/1706.08605)]
+
+## 3. Integrated approaches
+
+### 3.1. Executable Specifications
+
+- "Labor Division with Movable Walls: Composing Executable Specifications with
+  Machine Learning and Search (Blue Sky Idea)"
+  Harel et al. (2019)
+  [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048)]
+  [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048/4921)]
+  [[doi](https://doi.org/10.1609/aaai.v33i01.33019770)]
