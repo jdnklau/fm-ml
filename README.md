@@ -19,8 +19,9 @@ Machine Learning for Software Development in general.
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
   - [2.3. Clustering](#23-clustering)
   - [2.4. Machine Learning Systems](#24-machine-learning-systems)
-- [3. Integrated approaches](#3-integrated-approaches)
+- [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
+  - [3.2 Cyber-Physical Systems](#32-cyber-physical-systems)
 
 <!-- /TOC -->
 
@@ -53,6 +54,10 @@ Machine Learning for Software Development in general.
   [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
   [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
   [[doi](https://doi.org/10.1145/2597073.2597080)]
+- Automated Backend Selection for ProB Using Deep Learning"
+  Dunkelau et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
+  [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
 
 ### 1.2. Synthesis
 
@@ -66,6 +71,11 @@ Machine Learning for Software Development in general.
   [[link](https://link.springer.com/chapter/10.1007/978-3-540-78800-3_11)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-78800-3_11.pdf)]
   [[doi](https://doi.org/10.1007/978-3-540-78800-3_11)]
+- "A theory of formal synthesis via inductive learning",
+  Jha & Seshia (2017)
+  [[link](https://link.springer.com/article/10.1007/s00236-017-0294-5)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s00236-017-0294-5.pdf)]
+  [[doi](https://doi.org/10.1007/s00236-017-0294-5)]
 
 ### 1.3. Feature Selection
 
@@ -99,7 +109,7 @@ Machine Learning for Software Development in general.
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-23820-3_23)]
   [[pdf](https://arts.units.it/retrieve/handle/11368/2860877/69589/RV2015_tutorial-post.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-23820-3_23)]
-- "Verification of Markov Decision Processesusing Learning Algorithms",
+- "Verification of Markov Decision Processes using Learning Algorithms",
   Brázdil et al. (2015)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-11936-6_8)]
   [[pdf](https://arxiv.org/pdf/1402.2967.pdf)]
@@ -213,6 +223,21 @@ Machine Learning for Software Development in general.
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_1)]
   [[pdf](https://arxiv.org/pdf/1610.06940.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-63387-9_1)]
+- "Provable Defenses against Adversarial Examples via the Convex Outer
+  Adversarial Poly-tope",
+  Wong & Kolter (2018)
+  [[link](http://proceedings.mlr.press/v80/wong18a.html)]
+  [[pdf](http://proceedings.mlr.press/v80/wong18a/wong18a.pdf)]
+- "Semantic Adversarial Deep Learning",
+  Dreossi et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_1)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-96145-3_1.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-96145-3_1)]
+- "AI2: Safety and Robustness Certification of NeuralNetworks with Abstract Interpretation"
+  Gehr et al. (2018)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8418593)]
+  [[pdf](https://files.sri.inf.ethz.ch/website/papers/sp2018.pdf)]
+  [[doi](https://doi.org/10.1109/SP.2018.00058)]
 
 ### 2.2. Reinforcement Learning
 
@@ -224,6 +249,20 @@ Machine Learning for Software Development in general.
   [[link](https://drops.dagstuhl.de/opus/volltexte/2020/12815/)]
   [[pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12815/pdf/LIPIcs-CONCUR-2020-3.pdf)]
   [[doi](https://doi.org/10.4230/LIPIcs.CONCUR.2020.3)]
+- "Reachability-based safe learning with Gaussian processes",
+  Akametalu et al. (2014)
+  [[link](https://ieeexplore.ieee.org/abstract/document/7039601/))]
+  [[pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-190.pdf)]
+  [[doi](https://doi.org/10.1109/CDC.2014.7039601)]
+- "A comprehensive survey on safe reinforcement learning",
+  García & Fernández (2015)
+  [[link](https://dl.acm.org/doi/10.5555/2789272.2886795)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.5555/2789272.2886795)]
+  [[doi](https://doi.org/10.5555/2789272.2886795)]
+- "Safe Model-based Reinforcement Learning withStability Guarantees",
+  Berkenkamp et al. (2017)
+  [[link](http://proceedings.mlr.press/v97/ustun19a)]
+  [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
 
 ### 2.3. Clustering
 
@@ -240,8 +279,44 @@ Machine Learning for Software Development in general.
   Selsam et al. (2017)
   [[link](https://arxiv.org/abs/1706.08605)]
   [[pdf](https://arxiv.org/pdf/1706.08605)]
+- "Certifying the True Error: Machine Learning in Coq with Verified
+  Generalization Guarantees", Bagnall & Stewart (2019)
+  [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115)]
+  [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115/3993)]
+  [[doi](https://doi.org/10.1609/aaai.v33i01.33012662)]
+- "Proving Expected Sensitivity of Probabilistic Programs", Barthe et al. (2018)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
+  [[doi](https://doi.org/10.1145/3158145)]
+- "SoK: Towards the Science ofSecurity and Privacy in Machine Learning",
+  Papernot et al. (2016)
+  [[link](https://arxiv.org/abs/1611.03814)]
+  [[pdf](https://arxiv.org/pdf/1611.03814.pdf)]
+- "Robustness and generalization", Xu & Manor (2012)
+  [[link](https://link.springer.com/article/10.1007/s10994-011-5268-1)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf)]
+  [[doi](https://doi.org/10.1007/s10994-011-5268-1)]
+- "Towards Verified Stochastic Variational Inference forProbabilistic Programs",
+  Lee et al. (2020)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3371084))]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3371084)]
+  [[doi](https://doi.org/10.1145/3371084)]
+- "Towards Verified Artificial Intelligence",
+  Seshia et al. (2020)
+  [[link](https://arxiv.org/abs/1606.08514v4)]
+  [[pdf](https://arxiv.org/pdf/1606.08514v4.pdf)]
+- "VerifAI: A Toolkit for the Formal Design and Analysisof Artificial
+  Intelligence-Based Systems",
+  Dreossi et al. (2019)
+  [[link](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html)]
+  [[pdf](https://people.eecs.berkeley.edu/~sseshia/pubdir/verifai-cav19.pdf)]
+  [[github](https://github.com/BerkeleyLearnVerify/VerifAI)]
+- "Concrete Problems in AI Safety", Amodai et al. (2016)
+  [[link](http://arxiv.org/abs/1606.06565)]
+  [[pdf](http://arxiv.org/pdf/1606.06565.pdf)]
+  [[doi](https://doi.org/)]
 
-## 3. Integrated approaches
+## 3. Integrated Approaches
 
 ### 3.1. Executable Specifications
 
@@ -251,3 +326,12 @@ Machine Learning for Software Development in general.
   [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048)]
   [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048/4921)]
   [[doi](https://doi.org/10.1609/aaai.v33i01.33019770)]
+
+### 3.2 Cyber-Physical Systems
+
+- "Compositional Falsification of Cyber-Physical Systems with Machine Learning
+  Components",
+  Dreossi et al. (2019)
+  [[link](https://link.springer.com/article/10.1007%2Fs10817-018-09509-5)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s10817-018-09509-5.pdf)]
+  [[doi](https://doi.org/10.1007/s10817-018-09509-5)]
