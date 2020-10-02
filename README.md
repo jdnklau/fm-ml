@@ -54,7 +54,7 @@ Machine Learning for Software Development in general.
   [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
   [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
   [[doi](https://doi.org/10.1145/2597073.2597080)]
-- Automated Backend Selection for ProB Using Deep Learning"
+- "Automated Backend Selection for ProB Using Deep Learning"
   Dunkelau et al. (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
   [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
