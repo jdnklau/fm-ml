@@ -22,6 +22,7 @@ Machine Learning for Software Development in general.
 - [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
   - [3.2 Cyber-Physical Systems](#32-cyber-physical-systems)
+  - [3.3 Pattern Recognition](#33-pattern-recognition)
 
 <!-- /TOC -->
 
@@ -335,3 +336,11 @@ Machine Learning for Software Development in general.
   [[link](https://link.springer.com/article/10.1007%2Fs10817-018-09509-5)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10817-018-09509-5.pdf)]
   [[doi](https://doi.org/10.1007/s10817-018-09509-5)]
+
+### 3.3 Pattern Recognition
+
+- "A Formal Methods Approach to Pattern Synthesis in Reaction Diffusion Systems",
+  Gol et al. (2014)
+  [[link](https://ieeexplore.ieee.org/abstract/document/7039367/)]
+  [[pdf](https://arxiv.org/pdf/1409.5671.pdf)]
+  [[doi](https://doi.org/10.1109/CDC.2014.7039367)]
