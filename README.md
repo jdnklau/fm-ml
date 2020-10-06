@@ -2,8 +2,12 @@
 
 This repository contains a list of research links for the intersection
 of Formal Methods and Machine Learning.
-It might also incorporate similar notions such as
-Machine Learning for Software Development in general.
+
+For applied machine learning for formal methods, some references to machine
+learning for general software development are included as well,
+which might be applicable for formal methods.
+Analogously, articles concerning the verification of arbitrary (black-box)
+systems are listed, which can be expanded onto machine learning systems.
 
 <!-- TOC depthFrom:2 depthTo:4 -->
 
@@ -17,12 +21,13 @@ Machine Learning for Software Development in general.
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
-  - [2.3. Clustering](#23-clustering)
-  - [2.4. Machine Learning Systems](#24-machine-learning-systems)
+  - [2.3. Runtine Enforcement and Shield Synthesis](#23-runtine-enforcement-and-shield-synthesis)
+  - [2.4. Clustering](#24-clustering)
+  - [2.5. Machine Learning Systems](#25-machine-learning-systems)
 - [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
-  - [3.2 Cyber-Physical Systems](#32-cyber-physical-systems)
-  - [3.3 Pattern Recognition](#33-pattern-recognition)
+  - [3.2. Cyber-Physical Systems](#32-cyber-physical-systems)
+  - [3.3. Pattern Recognition](#33-pattern-recognition)
 
 <!-- /TOC -->
 
@@ -239,12 +244,21 @@ Machine Learning for Software Development in general.
   [[link](https://ieeexplore.ieee.org/abstract/document/8418593)]
   [[pdf](https://files.sri.inf.ethz.ch/website/papers/sp2018.pdf)]
   [[doi](https://doi.org/10.1109/SP.2018.00058)]
+- "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
+  Katz et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25540-4_26.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-25540-4_26)]
 
 ### 2.2. Reinforcement Learning
 
 - "Safe Reinforcement Learning via Formal Methods",
   Fulton & Platzer (2018)
   [[pdf](http://www.cs.cmu.edu/~aplatzer/pub/SafeRL.pdf)]
+- "Safe Reinforcement Learning via Shielding",
+  Alshiekh et al. (2018)
+  [[link](https://graz.pure.elsevier.com/en/publications/safe-reinforcement-learning-via-shielding)]
+  [[pdf](https://viterbi-web.usc.edu/~jdeshmuk/teaching/cs699-fm-for-cps/Papers/C2.pdf)]
 - "Safe Reinforcement Learning Using Probabilistic Shields",
   Jansen et al. (2020)
   [[link](https://drops.dagstuhl.de/opus/volltexte/2020/12815/)]
@@ -265,7 +279,40 @@ Machine Learning for Software Development in general.
   [[link](http://proceedings.mlr.press/v97/ustun19a)]
   [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
 
-### 2.3. Clustering
+### 2.3. Runtine Enforcement and Shield Synthesis
+
+- "Runtime Verification for LTL and TLTL",
+  Bauer et al. (2011)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2000799.2000800)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/2000799.2000800)]
+  [[doi](https://doi.org/10.1145/2000799.2000800)]
+- "Enforcement of (Timed) Properties with Uncontrollable Events",
+  Renard et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-25150-9_31)]
+  [[pdf](https://hal.inria.fr/hal-01185238/document)]
+  [[doi](https://doi.org/10.1007/978-3-319-25150-9_31)]
+- "Runtime enforcement using Büchi Games",
+  Renard et al. (2017)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3092282.3092296)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3092282.3092296)]
+  [[doi](https://doi.org/10.1145/3092282.3092296)]
+- "Shield synthesis",
+  Könighofer et al. (2017)
+  [[link](https://link.springer.com/article/10.1007/s10703-017-0276-9)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
+  [[doi](https://doi.org/10.1007/s10703-017-0276-9)]
+- "Shield Synthesis: Runtime Enforcement for Reactive Systems",
+  Bloem et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-662-46681-0_51)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-662-46681-0_51)]
+- "Shield Synthesis for Real: Enforcing Safety in Cyber-Physical Systems",
+  Wu et al. (2019)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8894264/)]
+  [[pdf](https://arxiv.org/pdf/1908.05402.pdf)]
+  [[doi](https://doi.org/10.23919/FMCAD.2019.8894264)]
+
+### 2.4. Clustering
 
 - "A Formal Algorithm for Verifying the Validity of Clustering Results Based
   on Model Checking",
@@ -274,7 +321,7 @@ Machine Learning for Software Development in general.
   [[pdf](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0090109&type=printable)]
   [[doi](https://doi.org/10.1371/journal.pone.0090109)]
 
-### 2.4. Machine Learning Systems
+### 2.5. Machine Learning Systems
 
 - "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
   Selsam et al. (2017)
@@ -328,7 +375,7 @@ Machine Learning for Software Development in general.
   [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048/4921)]
   [[doi](https://doi.org/10.1609/aaai.v33i01.33019770)]
 
-### 3.2 Cyber-Physical Systems
+### 3.2. Cyber-Physical Systems
 
 - "Compositional Falsification of Cyber-Physical Systems with Machine Learning
   Components",
@@ -337,7 +384,7 @@ Machine Learning for Software Development in general.
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10817-018-09509-5.pdf)]
   [[doi](https://doi.org/10.1007/s10817-018-09509-5)]
 
-### 3.3 Pattern Recognition
+### 3.3. Pattern Recognition
 
 - "A Formal Methods Approach to Pattern Synthesis in Reaction Diffusion Systems",
   Gol et al. (2014)
