@@ -164,15 +164,6 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-36675-8_13)]
   [[pdf](https://arxiv.org/pdf/1209.3914)]
   [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
-- "Specification-Guided Safety Verification for Feedforward Neural Networks",
-  Xiang et al. (2018)
-  [[link](https://arxiv.org/abs/1812.06161)]
-  [[pdf](https://arxiv.org/pdf/1812.06161)]
-- "Star-Based Reachability Analysis of Deep Neural Networks",
-  Tran et al. (2019)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
-  [[pdf](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-030-30942-8_39)]
 
 ### 1.6. Applied ML for General Software Development
 
@@ -250,6 +241,15 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)]
   [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25540-4_26.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-25540-4_26)]
+- "Specification-Guided Safety Verification for Feedforward Neural Networks",
+  Xiang et al. (2018)
+  [[link](https://arxiv.org/abs/1812.06161)]
+  [[pdf](https://arxiv.org/pdf/1812.06161)]
+- "Star-Based Reachability Analysis of Deep Neural Networks",
+  Tran et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
+  [[pdf](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-30942-8_39)]
 
 ### 2.2. Reinforcement Learning
 
