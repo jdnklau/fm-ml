@@ -9,6 +9,11 @@ which might be applicable for formal methods.
 Analogously, articles concerning the verification of arbitrary (black-box)
 systems are listed, which can be expanded onto machine learning systems.
 
+The entries are (mostly) sorted by
+publication year (descending),
+authors (ascending),
+title (ascending).
+
 <!-- TOC depthFrom:2 depthTo:4 -->
 
 - [1. Applied Machine Learning for Formal Methods](#1-applied-machine-learning-for-formal-methods)
@@ -36,15 +41,20 @@ systems are listed, which can be expanded onto machine learning systems.
 
 ### 1.1. Tool and Configuration Selection
 
-- "Machine learning and automated theorem proving",
-  Bridge (2010)
-  [[link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.html)]
-  [[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf)]
+- "Automated Backend Selection for ProB Using Deep Learning"
+  Dunkelau et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
+  [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
 - "PaMpeR: Proof Method Recommendation System for Isabelle/HOL"
   Nagashima & He (2018)
   [[link](https://dl.acm.org/doi/abs/10.1145/3238147.3238210)]
   [[pdf](https://arxiv.org/pdf/1806.07239)]
   [[doi](https://doi.org/10.1145/3238147.3238210)]
+- "MUX: Algorithm Selection for Software Model Checkers",
+  Tulsian et al. (2014)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
+  [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
+  [[doi](https://doi.org/10.1145/2597073.2597080)]
 - "Evaluating the use of a general-purpose benchmark suite for domain-specific
   SMT-solving",
   Healy et al. (2016)
@@ -56,15 +66,10 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://www.jair.org/index.php/jair/article/view/10628)]
   [[pdf](https://www.jair.org/index.php/jair/article/download/10628/25415/)]
   [[doi](https://doi.org/10.1613/jair.2861)]
-- "MUX: Algorithm Selection for Software Model Checkers",
-  Tulsian et al. (2014)
-  [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
-  [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
-  [[doi](https://doi.org/10.1145/2597073.2597080)]
-- "Automated Backend Selection for ProB Using Deep Learning"
-  Dunkelau et al. (2019)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
-  [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
+- "Machine learning and automated theorem proving",
+  Bridge (2010)
+  [[link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.html)]
+  [[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf)]
 
 ### 1.2. Synthesis
 
@@ -72,17 +77,17 @@ systems are listed, which can be expanded onto machine learning systems.
   Claessen et al. (2017)
   [[link](https://arxiv.org/abs/1711.06501)]
   [[pdf](https://arxiv.org/pdf/1711.06501)]
+- "A theory of formal synthesis via inductive learning",
+  Jha & Seshia (2017)
+  [[link](https://link.springer.com/article/10.1007/s00236-017-0294-5)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s00236-017-0294-5.pdf)]
+  [[doi](https://doi.org/10.1007/s00236-017-0294-5)]
 - "Model Checking-Based Genetic Programming with an Application to
   Mutual Exclusion",
   Katz & Peled (2008)
   [[link](https://link.springer.com/chapter/10.1007/978-3-540-78800-3_11)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-78800-3_11.pdf)]
   [[doi](https://doi.org/10.1007/978-3-540-78800-3_11)]
-- "A theory of formal synthesis via inductive learning",
-  Jha & Seshia (2017)
-  [[link](https://link.springer.com/article/10.1007/s00236-017-0294-5)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007/s00236-017-0294-5.pdf)]
-  [[doi](https://doi.org/10.1007/s00236-017-0294-5)]
 
 ### 1.3. Feature Selection
 
@@ -92,24 +97,11 @@ systems are listed, which can be expanded onto machine learning systems.
 
 ### 1.4. Model Checking
 
-- "Enhancing model checking in verification by AI techniques"
-  Buccafurri et al. (1999)
-  [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
-  [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
-- "Heuristic Model Checking using a Monte-Carlo Tree SearchAlgorithm"
-  Poulding & Feldt (2015)
-  [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
-  [[doi](https://doi.org/10.1145/2739480.2754767)]
 - "LTL Model Checking Based on Binary Classification of Machine Learning",
   Zhu et al. (2019)
   [[link](https://ieeexplore.ieee.org/document/8845603)]
   [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8845603)]
   [[doi](https://doi.org/10.1109/ACCESS.2019.2942762)]
-- "Bounded Rational Search for On-the-fly ModelChecking of LTL Properties"
-  Behjati et al. (2009)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
-  [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-642-11623-0_17)]
 - "Machine Learning Methods in Statistical ModelChecking and System Design -
    Tutorial",
   Bortolussi et al. (2015)
@@ -121,9 +113,26 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-11936-6_8)]
   [[pdf](https://arxiv.org/pdf/1402.2967.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-11936-6_8)]
+- "Heuristic Model Checking using a Monte-Carlo Tree SearchAlgorithm"
+  Poulding & Feldt (2015)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
+  [[doi](https://doi.org/10.1145/2739480.2754767)]
+- "Bounded Rational Search for On-the-fly ModelChecking of LTL Properties"
+  Behjati et al. (2009)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
+  [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-642-11623-0_17)]
+- "Enhancing model checking in verification by AI techniques"
+  Buccafurri et al. (1999)
+  [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
+  [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
 
 ### 1.5. Automated Theorem Proving
 
+- "Machine Learning for Instance Selection in SMT Solving",
+  Blanchette et al. (2019)
+  [[link](https://hal.archives-ouvertes.fr/hal-02381430/)]
+  [[pdf](https://hal.archives-ouvertes.fr/hal-02381430/file/paper.pdf)]
 - "Guiding High-Performance SAT Solvers with Unsat-Core Predictions",
   Selsam & Bjørner (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-24258-9_24)]
@@ -133,32 +142,28 @@ systems are listed, which can be expanded onto machine learning systems.
   Selsam et al. (2019)
   [[link](https://arxiv.org/abs/1802.03685)]
   [[pdf](https://arxiv.org/pdf/1802.03685)]
+- "Reinforcement Learning of Theorem Proving",
+  Kaliszyk et al. (2018)
+  [[link](http://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving)]
+  [[pdf](https://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving.pdf)]
 - "Learning-assisted theorem proving with millions of lemmas"
   Kaliszyk & Urban (2015)
   [[link](https://www.sciencedirect.com/science/article/pii/S074771711400100X)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S074771711400100X)]
   [[doi](https://doi.org/10.1016/j.jsc.2014.09.032)]
+- "A Survey of Axiom Selection as a Machine Learning Problem",
+  Blanchette & Kühlwein (2014)
+  [[pdf](https://www.cs.vu.nl/~jbe248/axiom_sel.pdf)]
+- "Stronger Automation for Flyspeck by Feature Weighting and Strategy Evolution",
+  Kaliszyk & Urban (2013)
+  [[link](https://hdl.handle.net/2066/119984)]
+  [[pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/119984/119984.pdf)]
 - "Overview and Evaluation of Premise Selection Techniques for
   Large Theory Mathematics"
   Kühlwein et al. (2012)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-31365-3_30)]
   [[pdf](http://grid01.ciirc.cvut.cz/~mptp/premisealgos.pdf)]
   [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
-- "Reinforcement Learning of Theorem Proving",
-  Kaliszyk et al. (2018)
-  [[link](http://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving)]
-  [[pdf](https://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving.pdf)]
-- "A Survey of Axiom Selection as a Machine Learning Problem",
-  Blanchette & Kühlwein (2014)
-  [[pdf](https://www.cs.vu.nl/~jbe248/axiom_sel.pdf)]
-- "Machine Learning for Instance Selection in SMT Solving",
-  Blanchette et al. (2019)
-  [[link](https://hal.archives-ouvertes.fr/hal-02381430/)]
-  [[pdf](https://hal.archives-ouvertes.fr/hal-02381430/file/paper.pdf)]
-- "Stronger Automation for Flyspeck by Feature Weighting and Strategy Evolution",
-  Kaliszyk & Urban (2013)
-  [[link](https://hdl.handle.net/2066/119984)]
-  [[pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/119984/119984.pdf)]
 - "Theorem Proving in Large Formal Mathematics as an Emerging AI Field",
   Urban & Vyskočil (2012)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-36675-8_13)]
@@ -178,54 +183,26 @@ systems are listed, which can be expanded onto machine learning systems.
 
 ### 2.1. Neural Networks
 
+- "A Game-Based Approximate Verification of Deep Neural Networks with
+  Provable Guarantees",
+  Wu et al. (2020)
+  [[link](https://www.sciencedirect.com/science/article/pii/S0304397519304426)]
+  [[pdf](https://arxiv.org/pdf/1807.03571)]
+  [[doi](https://doi.org/10.1016/j.tcs.2019.05.046)]
 - "A Survey of Safety and Trustworthiness of Deep Neural Networks",
   Huang et al. (2019)
   [[link](https://arxiv.org/abs/1812.08342)]
   [[pdf](https://arxiv.org/pdf/1812.08342)]
-- "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
-  Katz et al,
-  [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)]
-  [[pdf](https://arxiv.org/pdf/1702.01135.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-319-63387-9_5)]
-- "A Game-Based Approximate Verification of Deep Neural Networks with
-  Provable Guarantees",
-  Wu et al.
-  [[link](https://www.sciencedirect.com/science/article/pii/S0304397519304426)]
-  [[pdf](https://arxiv.org/pdf/1807.03571)]
-  [[doi](https://doi.org/10.1016/j.tcs.2019.05.046)]
-- "An Abstraction-Refinement Approach to Verification of
-  Artificial Neural Networks",
-  Pulina & Tacchella (2010)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-642-14295-6_24)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-14295-6_24.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-642-14295-6_24)]
-- "Challenging SMT solvers to verify neural networks",
-  Pulina & Tacchella (2012)
-  [[link](https://content.iospress.com/articles/ai-communications/aic525)]
-  [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.866.7776&rep=rep1&type=pdf)]
-  [[doi](https://doi.org/10.3233/AIC-2012-0525)]
-- "Measuring Neural Net Robustness with Constraints",
-  Bastani et al. (2016)
-  [[link](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints)]
-  [[pdf](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints.pdf)]
-- "Output Range Analysis for Deep Neural Networks",
-  Dutta et al. (2017)
-  [[link](https://arxiv.org/abs/1709.09130)]
-  [[pdf](https://arxiv.org/pdf/1709.09130)]
-- "Reachability Analysis of Deep Neural Networks with Provable Guarantees",
-  Ruan et al. (2018)
-  [[link](https://arxiv.org/abs/1805.02242)]
-  [[pdf](https://arxiv.org/pdf/1805.02242)]
-- "Safety Verification of Deep Neural Networks",
-  Huang et al. (2017)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_1)]
-  [[pdf](https://arxiv.org/pdf/1610.06940.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-319-63387-9_1)]
-- "Provable Defenses against Adversarial Examples via the Convex Outer
-  Adversarial Poly-tope",
-  Wong & Kolter (2018)
-  [[link](http://proceedings.mlr.press/v80/wong18a.html)]
-  [[pdf](http://proceedings.mlr.press/v80/wong18a/wong18a.pdf)]
+- "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
+  Katz et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25540-4_26.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-25540-4_26)]
+- "Star-Based Reachability Analysis of Deep Neural Networks",
+  Tran et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
+  [[pdf](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-30942-8_39)]
 - "Semantic Adversarial Deep Learning",
   Dreossi et al. (2018)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_1)]
@@ -236,49 +213,81 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://ieeexplore.ieee.org/abstract/document/8418593)]
   [[pdf](https://files.sri.inf.ethz.ch/website/papers/sp2018.pdf)]
   [[doi](https://doi.org/10.1109/SP.2018.00058)]
-- "The Marabou Framework for Verification and Analysis of Deep Neural Networks",
-  Katz et al. (2019)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25540-4_26.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-030-25540-4_26)]
+- "Reachability Analysis of Deep Neural Networks with Provable Guarantees",
+  Ruan et al. (2018)
+  [[link](https://arxiv.org/abs/1805.02242)]
+  [[pdf](https://arxiv.org/pdf/1805.02242)]
+- "Provable Defenses against Adversarial Examples via the Convex Outer
+  Adversarial Poly-tope",
+  Wong & Kolter (2018)
+  [[link](http://proceedings.mlr.press/v80/wong18a.html)]
+  [[pdf](http://proceedings.mlr.press/v80/wong18a/wong18a.pdf)]
 - "Specification-Guided Safety Verification for Feedforward Neural Networks",
   Xiang et al. (2018)
   [[link](https://arxiv.org/abs/1812.06161)]
   [[pdf](https://arxiv.org/pdf/1812.06161)]
-- "Star-Based Reachability Analysis of Deep Neural Networks",
-  Tran et al. (2019)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
-  [[pdf](https://www.researchgate.net/profile/Dung_Tran10/publication/333759458_Star-Based_Reachability_Analysis_of_Deep_Neural_Networks/links/5d04f416a6fdcc39f11ca50c/Star-Based-Reachability-Analysis-of-Deep-Neural-Networks.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-030-30942-8_39)]
+- "Output Range Analysis for Deep Neural Networks",
+  Dutta et al. (2017)
+  [[link](https://arxiv.org/abs/1709.09130)]
+  [[pdf](https://arxiv.org/pdf/1709.09130)]
+- "Safety Verification of Deep Neural Networks",
+  Huang et al. (2017)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_1)]
+  [[pdf](https://arxiv.org/pdf/1610.06940.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-63387-9_1)]
+- "Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks",
+  Katz et al. (2017)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)]
+  [[pdf](https://arxiv.org/pdf/1702.01135.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-63387-9_5)]
+- "Measuring Neural Net Robustness with Constraints",
+  Bastani et al. (2016)
+  [[link](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints)]
+  [[pdf](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints.pdf)]
+- "Challenging SMT solvers to verify neural networks",
+  Pulina & Tacchella (2012)
+  [[link](https://content.iospress.com/articles/ai-communications/aic525)]
+  [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.866.7776&rep=rep1&type=pdf)]
+  [[doi](https://doi.org/10.3233/AIC-2012-0525)]
+- "An Abstraction-Refinement Approach to Verification of
+  Artificial Neural Networks",
+  Pulina & Tacchella (2010)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-642-14295-6_24)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-14295-6_24.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-642-14295-6_24)]
 
 ### 2.2. Reinforcement Learning
 
-- "Safe Reinforcement Learning via Formal Methods",
-  Fulton & Platzer (2018)
-  [[pdf](http://www.cs.cmu.edu/~aplatzer/pub/SafeRL.pdf)]
-- "Safe Reinforcement Learning via Shielding",
-  Alshiekh et al. (2018)
-  [[link](https://graz.pure.elsevier.com/en/publications/safe-reinforcement-learning-via-shielding)]
-  [[pdf](https://viterbi-web.usc.edu/~jdeshmuk/teaching/cs699-fm-for-cps/Papers/C2.pdf)]
 - "Safe Reinforcement Learning Using Probabilistic Shields",
   Jansen et al. (2020)
   [[link](https://drops.dagstuhl.de/opus/volltexte/2020/12815/)]
   [[pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12815/pdf/LIPIcs-CONCUR-2020-3.pdf)]
   [[doi](https://doi.org/10.4230/LIPIcs.CONCUR.2020.3)]
-- "Reachability-based safe learning with Gaussian processes",
-  Akametalu et al. (2014)
-  [[link](https://ieeexplore.ieee.org/abstract/document/7039601/))]
-  [[pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-190.pdf)]
-  [[doi](https://doi.org/10.1109/CDC.2014.7039601)]
+- "Safe Reinforcement Learning via Shielding",
+  Alshiekh et al. (2018)
+  [[link](https://graz.pure.elsevier.com/en/publications/safe-reinforcement-learning-via-shielding)]
+  [[pdf](https://viterbi-web.usc.edu/~jdeshmuk/teaching/cs699-fm-for-cps/Papers/C2.pdf)]
+- "Safe Reinforcement Learning via Formal Methods",
+  Fulton & Platzer (2018)
+  [[pdf](http://www.cs.cmu.edu/~aplatzer/pub/SafeRL.pdf)]
+- "Safe Model-based Reinforcement Learning withStability Guarantees",
+  Berkenkamp et al. (2017)
+  [[link](http://proceedings.mlr.press/v97/ustun19a)]
+  [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
 - "A comprehensive survey on safe reinforcement learning",
   García & Fernández (2015)
   [[link](https://dl.acm.org/doi/10.5555/2789272.2886795)]
   [[pdf](https://dl.acm.org/doi/pdf/10.5555/2789272.2886795)]
   [[doi](https://doi.org/10.5555/2789272.2886795)]
-- "Safe Model-based Reinforcement Learning withStability Guarantees",
-  Berkenkamp et al. (2017)
-  [[link](http://proceedings.mlr.press/v97/ustun19a)]
-  [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
+- "Reachability-based safe learning with Gaussian processes",
+  Akametalu et al. (2014)
+  [[link](https://ieeexplore.ieee.org/abstract/document/7039601/))]
+  [[pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2015/EECS-2015-190.pdf)]
+  [[doi](https://doi.org/10.1109/CDC.2014.7039601)]
+- "Smart Exploration in Reinforcement LEarning using Absolute Temporal
+  Difference Errors",
+  Gehring & Precup (2013)
+  [[pdf](http://www.ifaamas.org/Proceedings/aamas2013/docs/p1037.pdf)]
 - "Safe Exploration in Markov Decision Processes",
   Moldovan & Abbeel (2012)
   [[link](https://arxiv.org/abs/1205.4810)]
@@ -286,43 +295,39 @@ systems are listed, which can be expanded onto machine learning systems.
 - "Safe Exploration for Reinforcement Learning",
   Hans et al. (2008)
   [[pdf](https://www.tu-ilmenau.de/fileadmin/media/neurob/publications/conferences_int/2008/Hans-ESANN-08.pdf)]
-- "Smart Exploration in Reinforcement LEarning using Absolute Temporal
-  Difference Errors",
-  Gehring & Precup (2013)
-  [[pdf](http://www.ifaamas.org/Proceedings/aamas2013/docs/p1037.pdf)]
 
 ### 2.3. Runtime Enforcement and Shield Synthesis
 
-- "Runtime Verification for LTL and TLTL",
-  Bauer et al. (2011)
-  [[link](https://dl.acm.org/doi/abs/10.1145/2000799.2000800)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/2000799.2000800)]
-  [[doi](https://doi.org/10.1145/2000799.2000800)]
-- "Enforcement of (Timed) Properties with Uncontrollable Events",
-  Renard et al. (2015)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-319-25150-9_31)]
-  [[pdf](https://hal.inria.fr/hal-01185238/document)]
-  [[doi](https://doi.org/10.1007/978-3-319-25150-9_31)]
-- "Runtime enforcement using Büchi Games",
-  Renard et al. (2017)
-  [[link](https://dl.acm.org/doi/abs/10.1145/3092282.3092296)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3092282.3092296)]
-  [[doi](https://doi.org/10.1145/3092282.3092296)]
-- "Shield synthesis",
-  Könighofer et al. (2017)
-  [[link](https://link.springer.com/article/10.1007/s10703-017-0276-9)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
-  [[doi](https://doi.org/10.1007/s10703-017-0276-9)]
-- "Shield Synthesis: Runtime Enforcement for Reactive Systems",
-  Bloem et al. (2015)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-662-46681-0_51)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
-  [[doi](https://doi.org/10.1007/978-3-662-46681-0_51)]
 - "Shield Synthesis for Real: Enforcing Safety in Cyber-Physical Systems",
   Wu et al. (2019)
   [[link](https://ieeexplore.ieee.org/abstract/document/8894264/)]
   [[pdf](https://arxiv.org/pdf/1908.05402.pdf)]
   [[doi](https://doi.org/10.23919/FMCAD.2019.8894264)]
+- "Shield synthesis",
+  Könighofer et al. (2017)
+  [[link](https://link.springer.com/article/10.1007/s10703-017-0276-9)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
+  [[doi](https://doi.org/10.1007/s10703-017-0276-9)]
+- "Runtime enforcement using Büchi Games",
+  Renard et al. (2017)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3092282.3092296)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3092282.3092296)]
+  [[doi](https://doi.org/10.1145/3092282.3092296)]
+- "Shield Synthesis: Runtime Enforcement for Reactive Systems",
+  Bloem et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-662-46681-0_51)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-46681-0_51.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-662-46681-0_51)]
+- "Enforcement of (Timed) Properties with Uncontrollable Events",
+  Renard et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-25150-9_31)]
+  [[pdf](https://hal.inria.fr/hal-01185238/document)]
+  [[doi](https://doi.org/10.1007/978-3-319-25150-9_31)]
+- "Runtime Verification for LTL and TLTL",
+  Bauer et al. (2011)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2000799.2000800)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/2000799.2000800)]
+  [[doi](https://doi.org/10.1145/2000799.2000800)]
 
 ### 2.4. Clustering
 
@@ -335,27 +340,6 @@ systems are listed, which can be expanded onto machine learning systems.
 
 ### 2.5. Machine Learning Systems
 
-- "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
-  Selsam et al. (2017)
-  [[link](https://arxiv.org/abs/1706.08605)]
-  [[pdf](https://arxiv.org/pdf/1706.08605)]
-- "Certifying the True Error: Machine Learning in Coq with Verified
-  Generalization Guarantees", Bagnall & Stewart (2019)
-  [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115)]
-  [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115/3993)]
-  [[doi](https://doi.org/10.1609/aaai.v33i01.33012662)]
-- "Proving Expected Sensitivity of Probabilistic Programs", Barthe et al. (2018)
-  [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
-  [[doi](https://doi.org/10.1145/3158145)]
-- "SoK: Towards the Science ofSecurity and Privacy in Machine Learning",
-  Papernot et al. (2016)
-  [[link](https://arxiv.org/abs/1611.03814)]
-  [[pdf](https://arxiv.org/pdf/1611.03814.pdf)]
-- "Robustness and generalization", Xu & Manor (2012)
-  [[link](https://link.springer.com/article/10.1007/s10994-011-5268-1)]
-  [[pdf](https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf)]
-  [[doi](https://doi.org/10.1007/s10994-011-5268-1)]
 - "Towards Verified Stochastic Variational Inference forProbabilistic Programs",
   Lee et al. (2020)
   [[link](https://dl.acm.org/doi/abs/10.1145/3371084))]
@@ -365,56 +349,48 @@ systems are listed, which can be expanded onto machine learning systems.
   Seshia et al. (2020)
   [[link](https://arxiv.org/abs/1606.08514v4)]
   [[pdf](https://arxiv.org/pdf/1606.08514v4.pdf)]
+- "Certifying the True Error: Machine Learning in Coq with Verified
+  Generalization Guarantees",
+  Bagnall & Stewart (2019)
+  [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115)]
+  [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/4115/3993)]
+  [[doi](https://doi.org/10.1609/aaai.v33i01.33012662)]
 - "VerifAI: A Toolkit for the Formal Design and Analysisof Artificial
   Intelligence-Based Systems",
   Dreossi et al. (2019)
   [[link](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html)]
   [[pdf](https://people.eecs.berkeley.edu/~sseshia/pubdir/verifai-cav19.pdf)]
   [[github](https://github.com/BerkeleyLearnVerify/VerifAI)]
-- "Concrete Problems in AI Safety", Amodai et al. (2016)
+- "Proving Expected Sensitivity of Probabilistic Programs", Barthe et al. (2018)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
+  [[doi](https://doi.org/10.1145/3158145)]
+- "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
+  Selsam et al. (2017)
+  [[link](https://arxiv.org/abs/1706.08605)]
+  [[pdf](https://arxiv.org/pdf/1706.08605)]
+- "Concrete Problems in AI Safety",
+  Amodai et al. (2016)
   [[link](http://arxiv.org/abs/1606.06565)]
   [[pdf](http://arxiv.org/pdf/1606.06565.pdf)]
   [[doi](https://doi.org/)]
+- "SoK: Towards the Science ofSecurity and Privacy in Machine Learning",
+  Papernot et al. (2016)
+  [[link](https://arxiv.org/abs/1611.03814)]
+  [[pdf](https://arxiv.org/pdf/1611.03814.pdf)]
+- "Robustness and generalization", Xu & Manor (2012)
+  [[link](https://link.springer.com/article/10.1007/s10994-011-5268-1)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf)]
+  [[doi](https://doi.org/10.1007/s10994-011-5268-1)]
 
 ### 2.6. Cyber-Physical Systems
 
-- "A Systematic Mapping Study on the Verification of Cyber-Physical Systems",
-  Duan et al. (2018)
-  [[link](https://ieeexplore.ieee.org/abstract/document/8472900/)]
-  [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8472900)]
-  [[doi](https://doi.org/10.1109/ACCESS.2018.2872015)]
 - "Vulnerabilities and safety assurance methods in Cyber-Physical Systems:
   A comprehensive review.", <!-- Period at end is part of the title somehow -->
   Bolbot et al. (2019)
   [[link](https://www.sciencedirect.com/science/article/abs/pii/S0951832018302709)]
   [[pdf](https://strathprints.strath.ac.uk/65628/1/Bolbot_etal_RESS2018_Vulnerabilities_and_safety_assurance_methods_in_Cyber_Physical.pdf)]
   [[doi](https://doi.org/10.1016/j.ress.2018.09.004)]
-- "Reasoning about Safety of Learning-Enabled Components in Autonomous
-  Cyber-physical Systems",
-  Tuncali et al. (2018)
-  [[link](https://dl.acm.org/doi/abs/10.1145/3195970.3199852)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3195970.3199852)]
-  [[doi](https://doi.org/10.1145/3195970.3199852)]
-- "Modeling and Verifying Intelligent Automotive Cyber-Physical Systems",
-  Jha & Sukthankar (2011)
-  [[pdf](http://roke.eecs.ucf.edu/pdf/Sukthankar-CPS2011.pdf)]
-- "Safety Verification of Cyber-Physical Systems with Reinforcement Learning
-  Control",
-  Tran et al. (2019)
-  [[link](https://dl.acm.org/doi/abs/10.1145/3358230)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3358230)]
-  [[doi](https://doi.org/10.1145/3358230)]
-- "Reachable Set Estimation and Verification for Neural Network Models of
-  Nonlinear Dynamic Systems",
-  Xiang et al. (2018)
-  [[link](https://link.springer.com/chapter/10.1007/978-3-319-97301-2_7)]
-  [[pdf](https://arxiv.org/pdf/1802.03557)]
-  [[doi](https://doi.org/10.1007/978-3-319-97301-2_7)]
-- "Formal Verification of Neural Network Controlled Autonomous Systems",
-  Sun et al. (2019)
-  [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311802)]
-  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311802)]
-  [[doi](https://doi.org/10.1145/3302504.3311802)]
 - "Verising: verifying safety properties of hybrid systems with neural network
   controllers",
   Ivanov et al. (2019)
@@ -426,6 +402,37 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://link.springer.com/chapter/10.1007%2F978-3-030-30281-8_2)]
   [[pdf](https://lfcps.org/pub/lpacps.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-30281-8_2)]
+- "Formal Verification of Neural Network Controlled Autonomous Systems",
+  Sun et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311802)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311802)]
+  [[doi](https://doi.org/10.1145/3302504.3311802)]
+- "Safety Verification of Cyber-Physical Systems with Reinforcement Learning
+  Control",
+  Tran et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3358230)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3358230)]
+  [[doi](https://doi.org/10.1145/3358230)]
+- "A Systematic Mapping Study on the Verification of Cyber-Physical Systems",
+  Duan et al. (2018)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8472900/)]
+  [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8472900)]
+  [[doi](https://doi.org/10.1109/ACCESS.2018.2872015)]
+- "Reasoning about Safety of Learning-Enabled Components in Autonomous
+  Cyber-physical Systems",
+  Tuncali et al. (2018)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3195970.3199852)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3195970.3199852)]
+  [[doi](https://doi.org/10.1145/3195970.3199852)]
+- "Reachable Set Estimation and Verification for Neural Network Models of
+  Nonlinear Dynamic Systems",
+  Xiang et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-97301-2_7)]
+  [[pdf](https://arxiv.org/pdf/1802.03557)]
+  [[doi](https://doi.org/10.1007/978-3-319-97301-2_7)]
+- "Modeling and Verifying Intelligent Automotive Cyber-Physical Systems",
+  Jha & Sukthankar (2011)
+  [[pdf](http://roke.eecs.ucf.edu/pdf/Sukthankar-CPS2011.pdf)]
 
 ## 3. Integrated Approaches
 
