@@ -21,9 +21,10 @@ systems are listed, which can be expanded onto machine learning systems.
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
-  - [2.3. Runtine Enforcement and Shield Synthesis](#23-runtine-enforcement-and-shield-synthesis)
+  - [2.3. Runtime Enforcement and Shield Synthesis](#23-runtime-enforcement-and-shield-synthesis)
   - [2.4. Clustering](#24-clustering)
   - [2.5. Machine Learning Systems](#25-machine-learning-systems)
+  - [2.6. Cyber-Physical Systems](#26-cyber-physical-systems)
 - [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
   - [3.2. Cyber-Physical Systems](#32-cyber-physical-systems)
@@ -278,8 +279,19 @@ systems are listed, which can be expanded onto machine learning systems.
   Berkenkamp et al. (2017)
   [[link](http://proceedings.mlr.press/v97/ustun19a)]
   [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
+- "Safe Exploration in Markov Decision Processes",
+  Moldovan & Abbeel (2012)
+  [[link](https://arxiv.org/abs/1205.4810)]
+  [[pdf](https://arxiv.org/pdf/1205.4810.pdf)]
+- "Safe Exploration for Reinforcement Learning",
+  Hans et al. (2008)
+  [[pdf](https://www.tu-ilmenau.de/fileadmin/media/neurob/publications/conferences_int/2008/Hans-ESANN-08.pdf)]
+- "Smart Exploration in Reinforcement LEarning using Absolute Temporal
+  Difference Errors",
+  Gehring & Precup (2013)
+  [[pdf](http://www.ifaamas.org/Proceedings/aamas2013/docs/p1037.pdf)]
 
-### 2.3. Runtine Enforcement and Shield Synthesis
+### 2.3. Runtime Enforcement and Shield Synthesis
 
 - "Runtime Verification for LTL and TLTL",
   Bauer et al. (2011)
@@ -364,6 +376,57 @@ systems are listed, which can be expanded onto machine learning systems.
   [[pdf](http://arxiv.org/pdf/1606.06565.pdf)]
   [[doi](https://doi.org/)]
 
+### 2.6. Cyber-Physical Systems
+
+- "A Systematic Mapping Study on the Verification of Cyber-Physical Systems",
+  Duan et al. (2018)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8472900/)]
+  [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8472900)]
+  [[doi](https://doi.org/10.1109/ACCESS.2018.2872015)]
+- "Vulnerabilities and safety assurance methods in Cyber-Physical Systems:
+  A comprehensive review.", <!-- Period at end is part of the title somehow -->
+  Bolbot et al. (2019)
+  [[link](https://www.sciencedirect.com/science/article/abs/pii/S0951832018302709)]
+  [[pdf](https://strathprints.strath.ac.uk/65628/1/Bolbot_etal_RESS2018_Vulnerabilities_and_safety_assurance_methods_in_Cyber_Physical.pdf)]
+  [[doi](https://doi.org/10.1016/j.ress.2018.09.004)]
+- "Reasoning about Safety of Learning-Enabled Components in Autonomous
+  Cyber-physical Systems",
+  Tuncali et al. (2018)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3195970.3199852)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3195970.3199852)]
+  [[doi](https://doi.org/10.1145/3195970.3199852)]
+- "Modeling and Verifying Intelligent Automotive Cyber-Physical Systems",
+  Jha & Sukthankar (2011)
+  [[pdf](http://roke.eecs.ucf.edu/pdf/Sukthankar-CPS2011.pdf)]
+- "Safety Verification of Cyber-Physical Systems with Reinforcement Learning
+  Control",
+  Tran et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3358230)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3358230)]
+  [[doi](https://doi.org/10.1145/3358230)]
+- "Reachable Set Estimation and Verification for Neural Network Models of
+  Nonlinear Dynamic Systems",
+  Xiang et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-97301-2_7)]
+  [[pdf](https://arxiv.org/pdf/1802.03557)]
+  [[doi](https://doi.org/10.1007/978-3-319-97301-2_7)]
+- "Formal Verification of Neural Network Controlled Autonomous Systems",
+  Sun et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311802)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311802)]
+  [[doi](https://doi.org/10.1145/3302504.3311802)]
+- "Verising: verifying safety properties of hybrid systems with neural network
+  controllers",
+  Ivanov et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311806)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311806)]
+  [[doi](https://doi.org/10.1145/3302504.3311806)]
+- "The Logical Path toAutonomous Cyber-Physical Systems",
+  Platzer (2019)
+  [[link](https://link.springer.com/chapter/10.1007%2F978-3-030-30281-8_2)]
+  [[pdf](https://lfcps.org/pub/lpacps.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-30281-8_2)]
+
 ## 3. Integrated Approaches
 
 ### 3.1. Executable Specifications
@@ -383,6 +446,17 @@ systems are listed, which can be expanded onto machine learning systems.
   [[link](https://link.springer.com/article/10.1007%2Fs10817-018-09509-5)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10817-018-09509-5.pdf)]
   [[doi](https://doi.org/10.1007/s10817-018-09509-5)]
+- "Design and verification of Cyber-Physical Systems using TrueTime,
+  evolutionary optimization and UPPAAL",
+  Balasubramaniyan et al. (2016)
+  [[link](https://www.sciencedirect.com/science/article/abs/pii/S0141933116000089)]
+  [[doi](https://doi.org/10.1016/j.micpro.2015.12.006)]
+- "Towards Learning and Verifying Invariants of Cyber-Physical Systems by
+  Code Mutation",
+  Chen et al. (2016)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-48989-6_10)]
+  [[pdf](https://arxiv.org/pdf/1609.01491.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-48989-6_10)]
 
 ### 3.3. Pattern Recognition
 
