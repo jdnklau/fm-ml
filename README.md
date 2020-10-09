@@ -23,6 +23,7 @@ title (ascending).
   - [1.4. Model Checking](#14-model-checking)
   - [1.5. Automated Theorem Proving](#15-automated-theorem-proving)
   - [1.6. Applied ML for General Software Development](#16-applied-ml-for-general-software-development)
+  - [1.7 Artificial Intelligence for Formal Software Development](#17-artificial-intelligence-for-formal-software-development)
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
@@ -34,6 +35,8 @@ title (ascending).
   - [3.1. Executable Specifications](#31-executable-specifications)
   - [3.2. Cyber-Physical Systems](#32-cyber-physical-systems)
   - [3.3. Pattern Recognition](#33-pattern-recognition)
+- [4. Unsorted Online Sources](#4-unsorted-online-sources)
+  - [4.1 Courses](#41-courses)
 
 <!-- /TOC -->
 
@@ -179,16 +182,42 @@ title (ascending).
 - "Awesome Machine Learning On Source Code"
   [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
+### 1.7 Artificial Intelligence for Formal Software Development
+
+- "AI meets Formal Software Development",
+  Bundy et al. (2012),
+  [[link](https://drops.dagstuhl.de/opus/volltexte/2012/3731/)]
+  [[pdf](https://drops.dagstuhl.de/opus/volltexte/2012/3731/pdf/dagrep_v002_i007_p001_s12271.pdf)]
+  [[doi](https://doi.org/10.4230/DagRep.2.7.1)]
+
 ## 2. Applied Formal Methods for Machine Learning
 
 ### 2.1. Neural Networks
 
+- "Improved Geometric Path Enumeration for Verifying ReLU Neural Networks",
+  Bak et al. (2020)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-53288-8_4)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-53288-8_4.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-53288-8_4)]
+- "NNV: The Neural Network Verification Tool for Deep Neural Networks and
+  Learning-Enabled Cyber-Physical Systems",
+  Tran et al. (2020)
+  [[link](https://arxiv.org/abs/2004.05519)]
+  [[pdf](https://arxiv.org/pdf/2004.05519)]
+- "Verification of Deep Convolutional Neural Networks Using ImageStars",
+  Tran et al. (2020)
+  [[link](https://arxiv.org/abs/2004.05511)]
+  [[pdf](https://arxiv.org/pdf/2004.05511)]
 - "A Game-Based Approximate Verification of Deep Neural Networks with
   Provable Guarantees",
   Wu et al. (2020)
   [[link](https://www.sciencedirect.com/science/article/pii/S0304397519304426)]
   [[pdf](https://arxiv.org/pdf/1807.03571)]
   [[doi](https://doi.org/10.1016/j.tcs.2019.05.046)]
+- "A Formalization of Robustness for Deep Neural Networks",
+  Dreossi et al. (2019)
+  [[link](https://arxiv.org/abs/1903.10033)]
+  [[pdf](https://arxiv.org/pdf/1903.10033)]
 - "A Survey of Safety and Trustworthiness of Deep Neural Networks",
   Huang et al. (2019)
   [[link](https://arxiv.org/abs/1812.08342)]
@@ -198,6 +227,10 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_26)]
   [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-25540-4_26.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-25540-4_26)]
+- "Algorithms for Verifying Deep Neural Networks",
+  Liu et al. (2019)
+  [[link](https://arxiv.org/abs/1903.06758)]
+  [[pdf](https://arxiv.org/pdf/1903.06758)]
 - "Star-Based Reachability Analysis of Deep Neural Networks",
   Tran et al. (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
@@ -208,7 +241,7 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_1)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-96145-3_1.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-96145-3_1)]
-- "AI2: Safety and Robustness Certification of NeuralNetworks with Abstract Interpretation"
+- "AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation"
   Gehr et al. (2018)
   [[link](https://ieeexplore.ieee.org/abstract/document/8418593)]
   [[pdf](https://files.sri.inf.ethz.ch/website/papers/sp2018.pdf)]
@@ -217,6 +250,16 @@ title (ascending).
   Ruan et al. (2018)
   [[link](https://arxiv.org/abs/1805.02242)]
   [[pdf](https://arxiv.org/pdf/1805.02242)]
+- "Formal Specification for Deep Neural Networks",
+  Seshia et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-01090-4_2)]
+  [[pdf](https://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2018-25.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-01090-4_2)]
+- "Formal Security Analysis of Neural Networks using Symbolic Intervals",
+  Wang et al. (2018)
+  [[link](https://www.usenix.org/conference/usenixsecurity18/presentation/wang-shiqi)]
+  [[pdf](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-wang_0.pdf)]
+  [[video](https://youtu.be/jm_7SKOC-cA)]
 - "Provable Defenses against Adversarial Examples via the Convex Outer
   Adversarial Poly-tope",
   Wong & Kolter (2018)
@@ -226,6 +269,10 @@ title (ascending).
   Xiang et al. (2018)
   [[link](https://arxiv.org/abs/1812.06161)]
   [[pdf](https://arxiv.org/pdf/1812.06161)]
+- "Verification for Machine Learning, Autonomy, and Neural Networks Survey",
+  Xiang et al. (2018)
+  [[link](https://arxiv.org/abs/1810.01989)]
+  [[pdf](https://arxiv.org/pdf/1810.01989)]
 - "Output Range Analysis for Deep Neural Networks",
   Dutta et al. (2017)
   [[link](https://arxiv.org/abs/1709.09130)]
@@ -240,10 +287,26 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-63387-9_5)]
   [[pdf](https://arxiv.org/pdf/1702.01135.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-63387-9_5)]
+- "Verifying Properties of BNinarized Deep Neural Networks",
+  Narodytska et al. (2017)
+  [[link](https://arxiv.org/abs/1709.06662)]
+  [[pdf](https://arxiv.org/pdf/1709.06662.pdf)]
+- "DeepXplore: Automated Whitebox Testing of Deep Learning Systems",
+  Pei et al. (2017)
+  [[link](https://arxiv.org/abs/1705.06640)]
+  [[pdf](https://arxiv.org/pdf/1705.06640)]
+- "DeepTest: Automated Testing of Deep-Neural-Network-driven Autonomous Cars",
+  Tian et al. (2017)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3180155.3180220)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3180155.3180220)]
+  [[doi](https://doi.org/10.1145/3180155.3180220)]
 - "Measuring Neural Net Robustness with Constraints",
   Bastani et al. (2016)
   [[link](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints)]
   [[pdf](http://papers.nips.cc/paper/6339-measuring-neural-net-robustness-with-constraints.pdf)]
+- "Towards Verification of Artificial Neural Networs",
+  Scheibler et al. (2015)
+  [[pdf](https://slub.qucosa.de/api/qucosa%3A5018/attachment/ATT-0/?L=1#page=30)]
 - "Challenging SMT solvers to verify neural networks",
   Pulina & Tacchella (2012)
   [[link](https://content.iospress.com/articles/ai-communications/aic525)]
@@ -385,6 +448,12 @@ title (ascending).
 
 ### 2.6. Cyber-Physical Systems
 
+- "Verification Approaches for Learning-Enabled Autonomous Cyber-Physical
+  Systems",
+  Tran et al. (2020)
+  [[link](https://ieeexplore.ieee.org/document/9165805)]
+  [[pdf](https://www.researchgate.net/publication/328091692_Verification_for_Machine_Learning_Autonomy_and_Neural_Networks_Survey)]
+  [[doi](https://doi.org/10.1109/MDAT.2020.3015712)]
 - "Vulnerabilities and safety assurance methods in Cyber-Physical Systems:
   A comprehensive review.", <!-- Period at end is part of the title somehow -->
   Bolbot et al. (2019)
@@ -472,3 +541,11 @@ title (ascending).
   [[link](https://ieeexplore.ieee.org/abstract/document/7039367/)]
   [[pdf](https://arxiv.org/pdf/1409.5671.pdf)]
   [[doi](https://doi.org/10.1109/CDC.2014.7039367)]
+
+## 4. Unsorted Online Sources
+
+### 4.1 Courses
+
+- "Formal Verification Meets Machine Learning",
+  Thomas Noll, Seminar in Theoretical CS, Summer Semester 2018, RWTH Aachen
+  [[link](https://moves.rwth-aachen.de/teaching/ss-18/fvmml/)]
