@@ -11,7 +11,7 @@ systems are listed, which can be expanded onto machine learning systems.
 
 The entries are (mostly) sorted by
 publication year (descending),
-authors (ascending),
+first author (ascending), and
 title (ascending).
 
 <!-- TOC depthFrom:2 depthTo:4 -->
@@ -19,12 +19,13 @@ title (ascending).
 - [1. Applied Machine Learning for Formal Methods](#1-applied-machine-learning-for-formal-methods)
   - [1.1. Tool and Configuration Selection](#11-tool-and-configuration-selection)
   - [1.2. Synthesis and Repair](#12-synthesis-and-repair)
-  - [1.3. Feature Selection](#13-feature-selection)
-  - [1.4. Model Checking](#14-model-checking)
-  - [1.5. Automated Theorem Proving](#15-automated-theorem-proving)
-  - [1.6. Invariant Learning](#16-invariant-learning)
-  - [1.7. Applied ML for General Software Development](#17-applied-ml-for-general-software-development)
-  - [1.8. Artificial Intelligence for Formal Software Development](#18-artificial-intelligence-for-formal-software-development)
+  - [1.3. Autoformalisation](#13-autoformalisation)
+  - [1.4. Feature Selection](#14-feature-selection)
+  - [1.5. Model Checking](#15-model-checking)
+  - [1.6. Automated Theorem Proving](#16-automated-theorem-proving)
+  - [1.7. Invariant Learning](#17-invariant-learning)
+  - [1.8. Applied ML for General Software Development](#18-applied-ml-for-general-software-development)
+  - [1.9. Artificial Intelligence for Formal Software Development](#19-artificial-intelligence-for-formal-software-development)
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
@@ -103,13 +104,20 @@ title (ascending).
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-78800-3_11.pdf)]
   [[doi](https://doi.org/10.1007/978-3-540-78800-3_11)]
 
-### 1.3. Feature Selection
+### 1.3. Autoformalisation
+
+- "A Promising Path Towards Autoformalization and General Artificial Intelligence",
+  Szegedy (2020)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-53518-6_1)]
+  [[doi](https://doi.org/10.1007/978-3-030-53518-6_1)]
+
+### 1.4. Feature Selection
 
 - "Efficient Semantic Features for Automated Reasoning over Large Theories",
   Kaliszyk et al. (2015)
   [[pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/143635/143635.pdf)]
 
-### 1.4. Model Checking
+### 1.5. Model Checking
 
 - "LTL Model Checking Based on Binary Classification of Machine Learning",
   Zhu et al. (2019)
@@ -141,7 +149,7 @@ title (ascending).
   [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
 
-### 1.5. Automated Theorem Proving
+### 1.6. Automated Theorem Proving
 
 - "Machine Learning for Instance Selection in SMT Solving",
   Blanchette et al. (2019)
@@ -184,7 +192,7 @@ title (ascending).
   [[pdf](https://arxiv.org/pdf/1209.3914)]
   [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
 
-### 1.6. Invariant Learning
+### 1.7. Invariant Learning
 
 - "Synthesizing Environment Invariants for Modular Hardware Verification",
   Zhang et al. (2020)
@@ -217,7 +225,7 @@ title (ascending).
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-39799-8_57.pdf)]
   [[doi](https://doi.org/10.1007/978-3-642-39799-8_57)]
 
-### 1.7. Applied ML for General Software Development
+### 1.8. Applied ML for General Software Development
 
 - "Machine Learning for Software Engineering: A Systematic Mapping",
   Shafiq et al. (2020)
@@ -226,7 +234,7 @@ title (ascending).
 - "Awesome Machine Learning On Source Code"
   [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
-### 1.8. Artificial Intelligence for Formal Software Development
+### 1.9. Artificial Intelligence for Formal Software Development
 
 - "AI meets Formal Software Development",
   Bundy et al. (2012),
