@@ -18,25 +18,27 @@ title (ascending).
 
 - [1. Applied Machine Learning for Formal Methods](#1-applied-machine-learning-for-formal-methods)
   - [1.1. Tool and Configuration Selection](#11-tool-and-configuration-selection)
-  - [1.2. Synthesis](#12-synthesis)
+  - [1.2. Synthesis and Repair](#12-synthesis-and-repair)
   - [1.3. Feature Selection](#13-feature-selection)
   - [1.4. Model Checking](#14-model-checking)
   - [1.5. Automated Theorem Proving](#15-automated-theorem-proving)
-  - [1.6. Applied ML for General Software Development](#16-applied-ml-for-general-software-development)
-  - [1.7 Artificial Intelligence for Formal Software Development](#17-artificial-intelligence-for-formal-software-development)
+  - [1.6. Invariant Learning](#16-invariant-learning)
+  - [1.7. Applied ML for General Software Development](#17-applied-ml-for-general-software-development)
+  - [1.8. Artificial Intelligence for Formal Software Development](#18-artificial-intelligence-for-formal-software-development)
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
   - [2.3. Runtime Enforcement and Shield Synthesis](#23-runtime-enforcement-and-shield-synthesis)
-  - [2.4. Clustering](#24-clustering)
-  - [2.5. Machine Learning Systems](#25-machine-learning-systems)
-  - [2.6. Cyber-Physical Systems](#26-cyber-physical-systems)
+  - [2.4. Markov Chains and Markov Decision Procedures](#24-markov-chains-and-markov-decision-procedures)
+  - [2.5. Clustering](#25-clustering)
+  - [2.6. Machine Learning Systems](#26-machine-learning-systems)
+  - [2.7. Cyber-Physical Systems](#27-cyber-physical-systems)
 - [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
   - [3.2. Cyber-Physical Systems](#32-cyber-physical-systems)
   - [3.3. Pattern Recognition](#33-pattern-recognition)
 - [4. Unsorted Online Sources](#4-unsorted-online-sources)
-  - [4.1 Courses](#41-courses)
+  - [4.1. Courses](#41-courses)
 
 <!-- /TOC -->
 
@@ -74,8 +76,17 @@ title (ascending).
   [[link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.html)]
   [[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf)]
 
-### 1.2. Synthesis
+### 1.2. Synthesis and Repair
 
+- "Automatic B-model repair using model checking and machine learning",
+  Cai et al. (2019)
+  [[link](https://link.springer.com/article/10.1007/s10515-019-00264-4)]
+  [[doi](https://doi.org/10.1007/s10515-019-00264-4)]
+- "Repair and Generation of Formal Models Using Synthesis",
+  Schmidt et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-98938-9_20)]
+  [[pdf](https://www.krin.gs/publication/schmidt-model-repair-ifm18/schmidt-model-repair-ifm18.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-98938-9_20)]
 - "A Supervisory Control Algorithm Based on Property-Directed Reachability",
   Claessen et al. (2017)
   [[link](https://arxiv.org/abs/1711.06501)]
@@ -173,7 +184,40 @@ title (ascending).
   [[pdf](https://arxiv.org/pdf/1209.3914)]
   [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
 
-### 1.6. Applied ML for General Software Development
+### 1.6. Invariant Learning
+
+- "Synthesizing Environment Invariants for Modular Hardware Verification",
+  Zhang et al. (2020)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-39322-9_10)]
+  [[pdf](https://bo-yuan-huang.github.io/ILAng-Doc/vmcai20.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-39322-9_10)]
+- "Quantified Invariants via Syntax-Guided Synthesis",
+  Fedyukovich et al. (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_14)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-25540-4_14.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-25540-4_14)]
+- "Property Directed Inference of Relational Invariants",
+  Mordvinov & Fedyukovich (2019)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8894274/)]
+  [[pdf](https://www.cs.fsu.edu/~grigory/relspacer.pdf)]
+  [[doi](https://doi.org/10.23919/FMCAD.2019.8894274)]
+- "IC3 - Flipping the E in ICE",
+  Vizel et al. (2017)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-52234-0_28)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-52234-0_28.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-52234-0_28)]
+- "ICE: A Robust Framework for Learning Invariants",
+  Garg et al. (2014)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-08867-9_5)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-08867-9_5.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-08867-9_5)]
+- "Learning Universally Quantified Invariants of Linear Data Structures",
+  Garg et al. (2013)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-642-39799-8_57)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-39799-8_57.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-642-39799-8_57)]
+
+### 1.7. Applied ML for General Software Development
 
 - "Machine Learning for Software Engineering: A Systematic Mapping",
   Shafiq et al. (2020)
@@ -182,7 +226,7 @@ title (ascending).
 - "Awesome Machine Learning On Source Code"
   [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
-### 1.7 Artificial Intelligence for Formal Software Development
+### 1.8. Artificial Intelligence for Formal Software Development
 
 - "AI meets Formal Software Development",
   Bundy et al. (2012),
@@ -231,6 +275,11 @@ title (ascending).
   Liu et al. (2019)
   [[link](https://arxiv.org/abs/1903.06758)]
   [[pdf](https://arxiv.org/pdf/1903.06758)]
+- "Bringing Engineering Rigor to Deep Learning",
+  Pei et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3352020.3352030)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3352020.3352030)]
+  [[doi](https://doi.org/10.1145/3352020.3352030)]
 - "Star-Based Reachability Analysis of Deep Neural Networks",
   Tran et al. (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-30942-8_39)]
@@ -326,6 +375,10 @@ title (ascending).
   [[link](https://drops.dagstuhl.de/opus/volltexte/2020/12815/)]
   [[pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12815/pdf/LIPIcs-CONCUR-2020-3.pdf)]
   [[doi](https://doi.org/10.4230/LIPIcs.CONCUR.2020.3)]
+- "Safety Aware Reinforcement Learning (SARL)",
+  Miret et al. (2020)
+  [[link](https://arxiv.org/abs/2010.02846)]
+  [[pdf](https://arxiv.org/pdf/2010.02846.pdf)]
 - "Safe Reinforcement Learning via Shielding",
   Alshiekh et al. (2018)
   [[link](https://graz.pure.elsevier.com/en/publications/safe-reinforcement-learning-via-shielding)]
@@ -337,6 +390,11 @@ title (ascending).
   Berkenkamp et al. (2017)
   [[link](http://proceedings.mlr.press/v97/ustun19a)]
   [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
+- "Safety-Constrained Reinforcement Learning for MDPs",
+  Jungens et al. (2016)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-662-49674-9_8)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-49674-9_8.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-662-49674-9_8)]
 - "A comprehensive survey on safe reinforcement learning",
   García & Fernández (2015)
   [[link](https://dl.acm.org/doi/10.5555/2789272.2886795)]
@@ -392,7 +450,20 @@ title (ascending).
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/2000799.2000800)]
   [[doi](https://doi.org/10.1145/2000799.2000800)]
 
-### 2.4. Clustering
+### 2.4. Markov Chains and Markov Decision Procedures
+
+- "Smoothed model checking for uncertain Continuous-Time Markov Chains",
+  Bortolussi et al. (2016)
+  [[link](https://www.sciencedirect.com/science/article/pii/S0890540116000055)]
+  [[pdf](https://arxiv.org/pdf/1402.1450)]
+  [[doi](https://doi.org/10.1016/j.ic.2016.01.004)]
+- "Counterexample Explanation by Learning Small Strategies in Markov Decision Processes",
+  Brázdil et al. (2015)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-21690-4_10)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-21690-4_10.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-21690-4_10)]
+
+### 2.5. Clustering
 
 - "A Formal Algorithm for Verifying the Validity of Clustering Results Based
   on Model Checking",
@@ -401,7 +472,7 @@ title (ascending).
   [[pdf](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0090109&type=printable)]
   [[doi](https://doi.org/10.1371/journal.pone.0090109)]
 
-### 2.5. Machine Learning Systems
+### 2.6. Machine Learning Systems
 
 - "Towards Verified Stochastic Variational Inference forProbabilistic Programs",
   Lee et al. (2020)
@@ -428,6 +499,14 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
   [[doi](https://doi.org/10.1145/3158145)]
+- "The challenge of verification and testing of machine learning",
+  Goodfellow & Papernot (2017)
+  [[html](http://www.cleverhans.io/security/privacy/ml/2017/06/14/verification.html)]
+- "Verification and control of partially observable probabilistic systems",
+  Norman et al. (2017)
+  [[link](https://link.springer.com/article/10.1007/s11241-017-9269-4)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s11241-017-9269-4.pdf)]
+  [[doi](https://doi.org/10.1007/s11241-017-9269-4)]
 - "Developing Bug-Free Machine Learning Systems With Formal Mathematics",
   Selsam et al. (2017)
   [[link](https://arxiv.org/abs/1706.08605)]
@@ -446,7 +525,7 @@ title (ascending).
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10994-011-5268-1.pdf)]
   [[doi](https://doi.org/10.1007/s10994-011-5268-1)]
 
-### 2.6. Cyber-Physical Systems
+### 2.7. Cyber-Physical Systems
 
 - "Verification Approaches for Learning-Enabled Autonomous Cyber-Physical
   Systems",
@@ -466,7 +545,7 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311806)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311806)]
   [[doi](https://doi.org/10.1145/3302504.3311806)]
-- "The Logical Path toAutonomous Cyber-Physical Systems",
+- "The Logical Path to Autonomous Cyber-Physical Systems",
   Platzer (2019)
   [[link](https://link.springer.com/chapter/10.1007%2F978-3-030-30281-8_2)]
   [[pdf](https://lfcps.org/pub/lpacps.pdf)]
@@ -499,6 +578,16 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-97301-2_7)]
   [[pdf](https://arxiv.org/pdf/1802.03557)]
   [[doi](https://doi.org/10.1007/978-3-319-97301-2_7)]
+- "Work-in-Progress: Testing Autonomous Cyber-Physical Systems using Fuzzing
+  Features from Convolutional Neural Networks",
+  Raj et al. (2017)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8094374)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3125503.3125568)]
+  [[doi](https://doi.org/10.1145/3125503.3125568)]
+- "Integrating Symbolic and Statistical Methods for TestingIntelligent Systems",
+  Ramanathan et al. (2016)
+  [[link](https://ieeexplore.ieee.org/abstract/document/7459413)]
+  [[pdf](https://past.date-conference.com/proceedings-archive/2016/pdf/0954.pdf)]
 - "Modeling and Verifying Intelligent Automotive Cyber-Physical Systems",
   Jha & Sukthankar (2011)
   [[pdf](http://roke.eecs.ucf.edu/pdf/Sukthankar-CPS2011.pdf)]
@@ -544,7 +633,7 @@ title (ascending).
 
 ## 4. Unsorted Online Sources
 
-### 4.1 Courses
+### 4.1. Courses
 
 - "Formal Verification Meets Machine Learning",
   Thomas Noll, Seminar in Theoretical CS, Summer Semester 2018, RWTH Aachen
