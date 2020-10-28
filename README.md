@@ -209,11 +209,41 @@ title (ascending).
   [[link](https://ieeexplore.ieee.org/abstract/document/8894274/)]
   [[pdf](https://www.cs.fsu.edu/~grigory/relspacer.pdf)]
   [[doi](https://doi.org/10.23919/FMCAD.2019.8894274)]
+- "Accelerating Syntax-Guided Invariant Synthesis",
+  Fedyukovich et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-89960-2_14)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-89960-2_14.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-89960-2_14)]
+- "Solving constrained hornclauses using syntax and data",
+  Fedyukovich et al. (2018)
+  [[link](https://ieeexplore.ieee.org/abstract/document/8603011)]
+  [[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/75060/fmcad2018_proceedings.pdf?sequence=2#page=181)]
+  [[doi](https://doi.org/10.23919/FMCAD.2018.8603011)]
+- "Quantifiers on Demand",
+  Gurfinkel et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-01090-4_15)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-01090-4_15.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-01090-4_15)]
+- "Efficiently Learning Safety Proofs from Appearance as well as Behaviours"
+  Prabhu et al. (2018)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-99725-4_20)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-99725-4_20.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-99725-4_20)]
 - "IC3 - Flipping the E in ICE",
   Vizel et al. (2017)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-52234-0_28)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-52234-0_28.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-52234-0_28)]
+- "Learning invariants using decision trees and implication counterexamples",
+  Garg et al. (2016)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2914770.2837664)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/2914770.2837664)]
+  [[doi](https://doi.org/10.1145/2914770.2837664)]
+- "Abstract Learning Frameworks for Synthesis",
+  Löding et al. (2016)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-662-49674-9_10)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-662-49674-9_10.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-662-49674-9_10)]
 - "ICE: A Robust Framework for Learning Invariants",
   Garg et al. (2014)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-08867-9_5)]
@@ -224,6 +254,11 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-39799-8_57)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-39799-8_57.pdf)]
   [[doi](https://doi.org/10.1007/978-3-642-39799-8_57)]
+- "A Data Driven Approach for Algebraic Loop Invariants",
+  Sharma et al. (2013)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-642-37036-6_31)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-37036-6_31.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-642-37036-6_31)]
 
 ### 1.8. Applied ML for General Software Development
 
