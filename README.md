@@ -124,7 +124,7 @@ title (ascending).
   [[link](https://ieeexplore.ieee.org/document/8845603)]
   [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8845603)]
   [[doi](https://doi.org/10.1109/ACCESS.2019.2942762)]
-- "Machine Learning Methods in Statistical ModelChecking and System Design -
+- "Machine Learning Methods in Statistical Model Checking and System Design -
    Tutorial",
   Bortolussi et al. (2015)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-23820-3_23)]
@@ -135,11 +135,11 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-11936-6_8)]
   [[pdf](https://arxiv.org/pdf/1402.2967.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-11936-6_8)]
-- "Heuristic Model Checking using a Monte-Carlo Tree SearchAlgorithm"
+- "Heuristic Model Checking using a Monte-Carlo Tree Search Algorithm"
   Poulding & Feldt (2015)
   [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
   [[doi](https://doi.org/10.1145/2739480.2754767)]
-- "Bounded Rational Search for On-the-fly ModelChecking of LTL Properties"
+- "Bounded Rational Search for On-the-fly Model Checking of LTL Properties"
   Behjati et al. (2009)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
   [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
@@ -291,7 +291,7 @@ title (ascending).
   Tran et al. (2020)
   [[link](https://arxiv.org/abs/2004.05519)]
   [[pdf](https://arxiv.org/pdf/2004.05519)]
-- "Verification of Deep Convolutional Neural Networks Using ImageStars",
+- "Verification of Deep Convolutional Neural Networks Using Image Stars",
   Tran et al. (2020)
   [[link](https://arxiv.org/abs/2004.05511)]
   [[pdf](https://arxiv.org/pdf/2004.05511)]
@@ -429,7 +429,7 @@ title (ascending).
 - "Safe Reinforcement Learning via Formal Methods",
   Fulton & Platzer (2018)
   [[pdf](http://www.cs.cmu.edu/~aplatzer/pub/SafeRL.pdf)]
-- "Safe Model-based Reinforcement Learning withStability Guarantees",
+- "Safe Model-based Reinforcement Learning with Stability Guarantees",
   Berkenkamp et al. (2017)
   [[link](http://proceedings.mlr.press/v97/ustun19a)]
   [[pdf](https://papers.nips.cc/paper/6692-safe-model-based-reinforcement-learning-with-stability-guarantees.pdf)]
@@ -517,7 +517,7 @@ title (ascending).
 
 ### 2.6. Machine Learning Systems
 
-- "Towards Verified Stochastic Variational Inference forProbabilistic Programs",
+- "Towards Verified Stochastic Variational Inference for Probabilistic Programs",
   Lee et al. (2020)
   [[link](https://dl.acm.org/doi/abs/10.1145/3371084))]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3371084)]
@@ -542,7 +542,7 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
   [[doi](https://doi.org/10.1145/3158145)]
-- "Grammar Based Directed Testing of MachineLearning Systems",
+- "Grammar Based Directed Testing of Machine Learning Systems",
   Udeshi et al. (2019)
   [[link](https://arxiv.org/abs/1902.10027)]
   [[pdf](https://arxiv.org/pdf/1902.10027.pdf)]
@@ -563,7 +563,7 @@ title (ascending).
   [[link](http://arxiv.org/abs/1606.06565)]
   [[pdf](http://arxiv.org/pdf/1606.06565.pdf)]
   [[doi](https://doi.org/)]
-- "SoK: Towards the Science ofSecurity and Privacy in Machine Learning",
+- "SoK: Towards the Science of Security and Privacy in Machine Learning",
   Papernot et al. (2016)
   [[link](https://arxiv.org/abs/1611.03814)]
   [[pdf](https://arxiv.org/pdf/1611.03814.pdf)]
@@ -631,7 +631,7 @@ title (ascending).
   [[link](https://ieeexplore.ieee.org/abstract/document/8094374)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3125503.3125568)]
   [[doi](https://doi.org/10.1145/3125503.3125568)]
-- "Integrating Symbolic and Statistical Methods for TestingIntelligent Systems",
+- "Integrating Symbolic and Statistical Methods for Testing Intelligent Systems",
   Ramanathan et al. (2016)
   [[link](https://ieeexplore.ieee.org/abstract/document/7459413)]
   [[pdf](https://past.date-conference.com/proceedings-archive/2016/pdf/0954.pdf)]
@@ -658,7 +658,7 @@ title (ascending).
   [[link](https://link.springer.com/article/10.1007%2Fs10817-018-09509-5)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10817-018-09509-5.pdf)]
   [[doi](https://doi.org/10.1007/s10817-018-09509-5)]
-- "Design and verification of Cyber-Physical Systems using TrueTime,
+- "Design and verification of Cyber-Physical Systems using True Time,
   evolutionary optimization and UPPAAL",
   Balasubramaniyan et al. (2016)
   [[link](https://www.sciencedirect.com/science/article/abs/pii/S0141933116000089)]
