@@ -542,6 +542,10 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
   [[doi](https://doi.org/10.1145/3158145)]
+- "Grammar Based Directed Testing of MachineLearning Systems",
+  Udeshi et al. (2019)
+  [[link](https://arxiv.org/abs/1902.10027)]
+  [[pdf](https://arxiv.org/pdf/1902.10027.pdf)]
 - "The challenge of verification and testing of machine learning",
   Goodfellow & Papernot (2017)
   [[html](http://www.cleverhans.io/security/privacy/ml/2017/06/14/verification.html)]
