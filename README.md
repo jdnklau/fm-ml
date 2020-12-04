@@ -21,11 +21,12 @@ title (ascending).
   - [1.2. Synthesis and Repair](#12-synthesis-and-repair)
   - [1.3. Autoformalisation](#13-autoformalisation)
   - [1.4. Feature Selection](#14-feature-selection)
-  - [1.5. Model Checking](#15-model-checking)
-  - [1.6. Automated Theorem Proving](#16-automated-theorem-proving)
-  - [1.7. Invariant Learning](#17-invariant-learning)
-  - [1.8. Applied ML for General Software Development](#18-applied-ml-for-general-software-development)
-  - [1.9. Artificial Intelligence for Formal Software Development](#19-artificial-intelligence-for-formal-software-development)
+  - [1.5. Tooling Analysis and Data Mining](#15-tooling-analysis-and-data-mining)
+  - [1.6. Model Checking](#16-model-checking)
+  - [1.7. Automated Theorem Proving](#17-automated-theorem-proving)
+  - [1.8. Invariant Learning](#18-invariant-learning)
+  - [1.9. Applied ML for General Software Development](#19-applied-ml-for-general-software-development)
+  - [1.10. Artificial Intelligence for Formal Software Development](#110-artificial-intelligence-for-formal-software-development)
 - [2. Applied Formal Methods for Machine Learning](#2-applied-formal-methods-for-machine-learning)
   - [2.1. Neural Networks](#21-neural-networks)
   - [2.2. Reinforcement Learning](#22-reinforcement-learning)
@@ -37,7 +38,8 @@ title (ascending).
 - [3. Integrated Approaches](#3-integrated-approaches)
   - [3.1. Executable Specifications](#31-executable-specifications)
   - [3.2. Cyber-Physical Systems](#32-cyber-physical-systems)
-  - [3.3. Pattern Recognition](#33-pattern-recognition)
+  - [3.3. Planning](#33-planning)
+  - [3.4. Pattern Recognition](#34-pattern-recognition)
 - [4. Unsorted Online Sources](#4-unsorted-online-sources)
   - [4.1. Courses](#41-courses)
 
@@ -50,6 +52,7 @@ title (ascending).
 - "Automated Backend Selection for ProB Using Deep Learning"
   Dunkelau et al. (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
+  [[pdf](https://www3.hhu.de/stups/downloads/pdf/automated-backend-selection.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
 - "PaMpeR: Proof Method Recommendation System for Isabelle/HOL"
   Nagashima & He (2018)
@@ -117,8 +120,20 @@ title (ascending).
   Kaliszyk et al. (2015)
   [[pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/143635/143635.pdf)]
 
-### 1.5. Model Checking
+### 1.5. Tooling Analysis and Data Mining
 
+- "Analysing ProB's Constraint Solving Backends",
+  Dunkelau et al. (2020)
+  [[link](https://link.springer.com/chapter/10.1007%2F978-3-030-48077-6_8)]
+  [[pdf](https://www3.hhu.de/stups/downloads/pdf/analysing-backends-of-b.pdf)]
+  [[doi](https://doi.org/10.1007%2F978-3-030-48077-6_8)]
+
+### 1.6. Model Checking
+
+- "Locally-Constrained Reinforcement Learning",
+  Hasanbeig et al. (2019)
+  [[link](https://arxiv.org/abs/1801.08099)]
+  [[pdf](https://arxiv.org/pdf/1801.08099.pdf)]
 - "LTL Model Checking Based on Binary Classification of Machine Learning",
   Zhu et al. (2019)
   [[link](https://ieeexplore.ieee.org/document/8845603)]
@@ -139,18 +154,42 @@ title (ascending).
   Poulding & Feldt (2015)
   [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
   [[doi](https://doi.org/10.1145/2739480.2754767)]
+- "Employing AI Techniques in Probabilistic Model Checking Position Paper",
+  Goldman et al. (2014)
+  [[link](https://www.sift.net/publications/employing-ai-techniques-probabilistic-model-checking)]
+  [[pdf](https://www.sift.net/sites/default/files/publications/mochap14.pdf)]
+- "A heuristic solution for model checking graph transformation systems",
+  Yousefian et al. (2014)
+  [[link](https://www.sciencedirect.com/science/article/abs/pii/S1568494614003305?via%3Dihub)]
+  [[pdf](https://d1wqtxts1xzle7.cloudfront.net/45156763/A_Heuristic_Solution_for_Model_Checking_20160427-15966-1mxuv21.pdf?1461824015=&response-content-disposition=inline%3B+filename%3DA_heuristic_solution_for_model_checking.pdf&Expires=1607094476&Signature=GEvg1BXUQOSP2KMhRy~e1XO76RFH-r4hAJeLTclkGTcsuq1Vn4CXS2Tv1tVG9ASruKi~nL6bK3sOJfFz6SsR6NYS6THq0Tiwxv0eLhZRKVspCj8oYuu6DskvWBk6Lq9jb15DORmgw~adGb1KpUe7LOq-~z4jh8HUIIQIjR~aOyb2zlr20XQALgLHtX4tTYIHbVf0Cx~OyMSdLPT8PtiTOm6yR-PehCT7S0u~rY08w9V9EppsuiKM8MOT6q4ZmD0NGdJOxiuooUg~SJHKDz6vGklFc0EMb8hqMQopbQDmYVlXxY6ZH~f6~umIVdJHm89d2B7ddEwdWVZZtBaGyX2oHw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)]
+  [[doi](https://doi.org/10.1016/j.asoc.2014.06.055)]
 - "Bounded Rational Search for On-the-fly Model Checking of LTL Properties"
   Behjati et al. (2009)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
   [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
   [[doi](https://doi.org/10.1007/978-3-642-11623-0_17)]
+- "Finding Deadlocks in Large Concurrent Java Programs Using Genetic Algorithms",
+  Alba et al. (2008)
+  [[link](https://dl.acm.org/doi/abs/10.1145/1389095.1389432)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/1389095.1389432)]
+  [[doi](https://doi.org/10.1145/1389095.1389432)]
+- "Exploring very large state spaces using genetic algorithms",
+  Godefroid & Khurshid (2004)
+  [[link](https://link.springer.com/article/10.1007/s10009-004-0141-1)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/s10009-004-0141-1.pdf)]
+  [[doi](https://doi.org/10.1007/s10009-004-0141-1)]
 - "Enhancing model checking in verification by AI techniques"
   Buccafurri et al. (1999)
   [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
 
-### 1.6. Automated Theorem Proving
+### 1.7. Automated Theorem Proving
 
+- "Learning Heuristics for Quantified Boolean Formulas through Reinforcement
+  Learning"
+  Lederman et al. (2020)
+  [[link](https://iclr.cc/virtual_2020/poster_BJluxREKDB.html)]
+  [[pdf](https://openreview.net/pdf?id=BJluxREKDB)]
 - "Machine Learning for Instance Selection in SMT Solving",
   Blanchette et al. (2019)
   [[link](https://hal.archives-ouvertes.fr/hal-02381430/)]
@@ -168,6 +207,15 @@ title (ascending).
   Kaliszyk et al. (2018)
   [[link](http://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving)]
   [[pdf](https://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving.pdf)]
+- "Learning Heuristics for Automated Reasoning through Deep Reinforcement Learning",
+  Lederman & Rabe (2018)
+  [[link](https://arxiv.org/abs/1807.08058)]
+  [[pdf](https://arxiv.org/pdf/1807.08058.pdf)]
+- "Learning Rate Based Branching Heuristic for SAT Solvers",
+  Liang et al. (2016)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-319-40970-2_9)]
+  [[pdf](https://link.springer.com/pdf/10.1007/978-3-319-40970-2_9.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-40970-2_9)]
 - "Learning-assisted theorem proving with millions of lemmas"
   Kaliszyk & Urban (2015)
   [[link](https://www.sciencedirect.com/science/article/pii/S074771711400100X)]
@@ -192,7 +240,7 @@ title (ascending).
   [[pdf](https://arxiv.org/pdf/1209.3914)]
   [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
 
-### 1.7. Invariant Learning
+### 1.8. Invariant Learning
 
 - "Synthesizing Environment Invariants for Modular Hardware Verification",
   Zhang et al. (2020)
@@ -260,7 +308,7 @@ title (ascending).
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-37036-6_31.pdf)]
   [[doi](https://doi.org/10.1007/978-3-642-37036-6_31)]
 
-### 1.8. Applied ML for General Software Development
+### 1.9. Applied ML for General Software Development
 
 - "Machine Learning for Software Engineering: A Systematic Mapping",
   Shafiq et al. (2020)
@@ -269,7 +317,7 @@ title (ascending).
 - "Awesome Machine Learning On Source Code"
   [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
-### 1.9. Artificial Intelligence for Formal Software Development
+### 1.10. Artificial Intelligence for Formal Software Development
 
 - "AI meets Formal Software Development",
   Bundy et al. (2012),
@@ -517,6 +565,11 @@ title (ascending).
 
 ### 2.6. Machine Learning Systems
 
+- "Formal Verification of Heuristic Autonomous Intersection Management Using Statistical Model Checking",
+  Chouhan & Banda (2020)
+  [[link](https://www.mdpi.com/1424-8220/20/16/4506)]
+  [[pdf](https://www.mdpi.com/1424-8220/20/16/4506/pdf)]
+  [[doi](https://doi.org/10.3390/s20164506)]
 - "Towards Verified Stochastic Variational Inference for Probabilistic Programs",
   Lee et al. (2020)
   [[link](https://dl.acm.org/doi/abs/10.1145/3371084))]
@@ -538,6 +591,10 @@ title (ascending).
   [[link](https://people.eecs.berkeley.edu/~sseshia/pubs/b2hd-verifai-cav19.html)]
   [[pdf](https://people.eecs.berkeley.edu/~sseshia/pubdir/verifai-cav19.pdf)]
   [[github](https://github.com/BerkeleyLearnVerify/VerifAI)]
+- "On Validating, Repairing and Refining Heuristic ML Explanations",
+  Ignatiev et al. (2019)
+  [[link](https://arxiv.org/abs/1907.02509)]
+  [[pdf](https://arxiv.org/pdf/1907.02509.pdf)]
 - "Proving Expected Sensitivity of Probabilistic Programs", Barthe et al. (2018)
   [[link](https://dl.acm.org/doi/abs/10.1145/3158145)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3158145)]
@@ -592,6 +649,11 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311806)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311806)]
   [[doi](https://doi.org/10.1145/3302504.3311806)]
+- "Evaluating Model Testing and Model Checking for Finding Requirements Violations in Simulink Models"
+  Nejati et al. (2019)
+  [[link](https://dl.acm.org/doi/10.1145/3338906.3340444)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3338906.3340444)]
+  [[doi](https://doi.org/10.1145/3338906.3340444)]
 - "The Logical Path to Autonomous Cyber-Physical Systems",
   Platzer (2019)
   [[link](https://link.springer.com/chapter/10.1007%2F978-3-030-30281-8_2)]
@@ -670,7 +732,15 @@ title (ascending).
   [[pdf](https://arxiv.org/pdf/1609.01491.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-48989-6_10)]
 
-### 3.3. Pattern Recognition
+### 3.3. Planning
+
+- "Combining Model Checking and Reinforcement Learning for Scalable Mission
+   Planning of Autonomous Agents",
+   Gu et al. (2020)
+   [[link](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1429051&dswid=7403)]
+   [[pdf](http://www.es.mdh.se/pdf_publications/5782.pdf)]
+
+### 3.4. Pattern Recognition
 
 - "A Formal Methods Approach to Pattern Synthesis in Reaction Diffusion Systems",
   Gol et al. (2014)
