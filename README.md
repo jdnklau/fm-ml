@@ -19,7 +19,7 @@ title (ascending).
 - [1. Applied Machine Learning for Formal Methods](#1-applied-machine-learning-for-formal-methods)
   - [1.1. Tool and Configuration Selection](#11-tool-and-configuration-selection)
   - [1.2. Synthesis and Repair](#12-synthesis-and-repair)
-  - [1.3. Autoformalisation](#13-autoformalisation)
+  - [1.3. Formalisation and Specifications](#13-formalisation-and-specifications)
   - [1.4. Feature Selection](#14-feature-selection)
   - [1.5. Tooling Analysis and Data Mining](#15-tooling-analysis-and-data-mining)
   - [1.6. Model Checking](#16-model-checking)
@@ -49,36 +49,46 @@ title (ascending).
 
 ### 1.1. Tool and Configuration Selection
 
-- "Automated Backend Selection for ProB Using Deep Learning"
+- "MachSMT: A Machine Learning-based Algorithm Selector for SMT Solvers",
+  Scott et al. (2021)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-72013-1_16)]
+  [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-72013-1_16.pdf)]
+  [[doi](https://doi.org/10.1007/978-3-030-72013-1_16)]
+- "Automated Backend Selection for ProB Using Deep Learning",
   Dunkelau et al. (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-20652-9_9)]
   [[pdf](https://www3.hhu.de/stups/downloads/pdf/automated-backend-selection.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-20652-9_9)]
-- "PaMpeR: Proof Method Recommendation System for Isabelle/HOL"
+- "PaMpeR: Proof Method Recommendation System for Isabelle/HOL",
   Nagashima & He (2018)
   [[link](https://dl.acm.org/doi/abs/10.1145/3238147.3238210)]
   [[pdf](https://arxiv.org/pdf/1806.07239)]
   [[doi](https://doi.org/10.1145/3238147.3238210)]
-- "MUX: Algorithm Selection for Software Model Checkers",
-  Tulsian et al. (2014)
-  [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
-  [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
-  [[doi](https://doi.org/10.1145/2597073.2597080)]
+- "Predicting SMT Solver Performance for Software Verification",
+  Healy et al. (2017)
+  [[link](https://arxiv.org/abs/1701.08466)]
+  [[pdf](https://arxiv.org/pdf/1701.08466.pdf)]
+  [[doi](https://doi.org/10.4204/EPTCS.240.2)]
 - "Evaluating the use of a general-purpose benchmark suite for domain-specific
   SMT-solving",
   Healy et al. (2016)
   [[link](https://dl.acm.org/doi/abs/10.1145/2851613.2851975)]
   [[pdf](http://mural.maynoothuniversity.ie/10223/1/JP-Evaluating-2016.pdf)]
   [[doi](https://doi.org/10.1145/2851613.2851975)]
-- "ParamILS: An Automatic Algorithm Configuration Framework"
-  Hutter et al. (2009)
-  [[link](https://www.jair.org/index.php/jair/article/view/10628)]
-  [[pdf](https://www.jair.org/index.php/jair/article/download/10628/25415/)]
-  [[doi](https://doi.org/10.1613/jair.2861)]
+- "MUX: Algorithm Selection for Software Model Checkers",
+  Tulsian et al. (2014)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2597073.2597080)]
+  [[pdf](https://www.researchgate.net/profile/Varun_Tulsian/publication/265416309_MUX_Algorithm_Selection_for_Software_Model_Checkers/links/540eab3c0cf2f2b29a3a91a9.pdf)]
+  [[doi](https://doi.org/10.1145/2597073.2597080)]
 - "Machine learning and automated theorem proving",
   Bridge (2010)
   [[link](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.html)]
   [[pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-792.pdf)]
+- "ParamILS: An Automatic Algorithm Configuration Framework",
+  Hutter et al. (2009)
+  [[link](https://www.jair.org/index.php/jair/article/view/10628)]
+  [[pdf](https://www.jair.org/index.php/jair/article/download/10628/25415/)]
+  [[doi](https://doi.org/10.1613/jair.2861)]
 
 ### 1.2. Synthesis and Repair
 
@@ -107,12 +117,29 @@ title (ascending).
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-540-78800-3_11.pdf)]
   [[doi](https://doi.org/10.1007/978-3-540-78800-3_11)]
 
-### 1.3. Autoformalisation
+### 1.3. Formalisation and Specifications
 
 - "A Promising Path Towards Autoformalization and General Artificial Intelligence",
   Szegedy (2020)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-53518-6_1)]
   [[doi](https://doi.org/10.1007/978-3-030-53518-6_1)]
+- "Classifying Non-functional Requirements using RNN Variants for Quality
+   Software Development",
+  Rahman et al. (2019)
+  [[link](https://dl.acm.org/doi/abs/10.1145/3340482.3342745)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/3340482.3342745)]
+  [[doi](https://doi.org/10.1145/3340482.3342745)]
+- "Machine Learning for Constituency Test of Coordinating Conjunctions in
+   Requirements Specifications",
+  Sharma et al. (2014)
+  [[link](https://dl.acm.org/doi/abs/10.1145/2593801.2593806)]
+  [[pdf](https://dl.acm.org/doi/pdf/10.1145/2593801.2593806)]
+  [[doi](https://doi.org/10.1145/2593801.2593806)]
+- "Application of reinforcement learning to requirements engineering:
+   requirements tracing",
+  Sultanov et al. (2013)
+  [[link](https://ieeexplore.ieee.org/document/6636705)]
+  [[doi](https://doi.org/10.1109/RE.2013.6636705)]
 
 ### 1.4. Feature Selection
 
@@ -130,6 +157,11 @@ title (ascending).
 
 ### 1.6. Model Checking
 
+- "Using Knowledge Discovery to Propose a Two-phase Model Checking for Safety
+   Analysis of Graph Transformations",
+  Pira (2021)
+  [[link](https://link.springer.com/article/10.1007/s11219-020-09542-x)]
+  [[doi](https://doi.org/10.1007/s11219-020-09542-x)]
 - "Locally-Constrained Reinforcement Learning",
   Hasanbeig et al. (2019)
   [[link](https://arxiv.org/abs/1801.08099)]
@@ -150,7 +182,7 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-11936-6_8)]
   [[pdf](https://arxiv.org/pdf/1402.2967.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-11936-6_8)]
-- "Heuristic Model Checking using a Monte-Carlo Tree Search Algorithm"
+- "Heuristic Model Checking using a Monte-Carlo Tree Search Algorithm",
   Poulding & Feldt (2015)
   [[link](https://dl.acm.org/doi/abs/10.1145/2739480.2754767)]
   [[doi](https://doi.org/10.1145/2739480.2754767)]
@@ -163,7 +195,7 @@ title (ascending).
   [[link](https://www.sciencedirect.com/science/article/abs/pii/S1568494614003305?via%3Dihub)]
   [[pdf](https://d1wqtxts1xzle7.cloudfront.net/45156763/A_Heuristic_Solution_for_Model_Checking_20160427-15966-1mxuv21.pdf?1461824015=&response-content-disposition=inline%3B+filename%3DA_heuristic_solution_for_model_checking.pdf&Expires=1607094476&Signature=GEvg1BXUQOSP2KMhRy~e1XO76RFH-r4hAJeLTclkGTcsuq1Vn4CXS2Tv1tVG9ASruKi~nL6bK3sOJfFz6SsR6NYS6THq0Tiwxv0eLhZRKVspCj8oYuu6DskvWBk6Lq9jb15DORmgw~adGb1KpUe7LOq-~z4jh8HUIIQIjR~aOyb2zlr20XQALgLHtX4tTYIHbVf0Cx~OyMSdLPT8PtiTOm6yR-PehCT7S0u~rY08w9V9EppsuiKM8MOT6q4ZmD0NGdJOxiuooUg~SJHKDz6vGklFc0EMb8hqMQopbQDmYVlXxY6ZH~f6~umIVdJHm89d2B7ddEwdWVZZtBaGyX2oHw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)]
   [[doi](https://doi.org/10.1016/j.asoc.2014.06.055)]
-- "Bounded Rational Search for On-the-fly Model Checking of LTL Properties"
+- "Bounded Rational Search for On-the-fly Model Checking of LTL Properties",
   Behjati et al. (2009)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-11623-0_17)]
   [[pdf](https://www.researchgate.net/profile/Razieh_Behjati/publication/220843703_Bounded_Rational_Search_for_On-the-Fly_Model_Checking_of_LTL_Properties/links/54f23ce60cf2b36214afee38/Bounded-Rational-Search-for-On-the-Fly-Model-Checking-of-LTL-Properties.pdf)]
@@ -178,15 +210,18 @@ title (ascending).
   [[link](https://link.springer.com/article/10.1007/s10009-004-0141-1)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/s10009-004-0141-1.pdf)]
   [[doi](https://doi.org/10.1007/s10009-004-0141-1)]
-- "Enhancing model checking in verification by AI techniques"
+- "Enhancing model checking in verification by AI techniques",
   Buccafurri et al. (1999)
   [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
 
 ### 1.7. Automated Theorem Proving
 
+- "Neural Guidance in Constraint Solvers",
+  Gil Lederman (2021)
+  [[link](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-135.pdf)]
 - "Learning Heuristics for Quantified Boolean Formulas through Reinforcement
-  Learning"
+  Learning",
   Lederman et al. (2020)
   [[link](https://iclr.cc/virtual_2020/poster_BJluxREKDB.html)]
   [[pdf](https://openreview.net/pdf?id=BJluxREKDB)]
@@ -199,7 +234,7 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-24258-9_24)]
   [[pdf](https://arxiv.org/pdf/1903.04671)]
   [[doi](https://doi.org/10.1007/978-3-030-24258-9_24)]
-- "Learning A SAT Solver from Single-Bit Supervision"
+- "Learning A SAT Solver from Single-Bit Supervision",
   Selsam et al. (2019)
   [[link](https://arxiv.org/abs/1802.03685)]
   [[pdf](https://arxiv.org/pdf/1802.03685)]
@@ -208,15 +243,24 @@ title (ascending).
   [[link](http://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving)]
   [[pdf](https://papers.nips.cc/paper/8098-reinforcement-learning-of-theorem-proving.pdf)]
 - "Learning Heuristics for Automated Reasoning through Deep Reinforcement Learning",
-  Lederman & Rabe (2018)
+  Lederman et al. (2018)
   [[link](https://arxiv.org/abs/1807.08058)]
   [[pdf](https://arxiv.org/pdf/1807.08058.pdf)]
+- "A Learning-based Fact Selector for Isabelle/HOL",
+  Blanchette et al. (2016)
+  [[link](https://link.springer.com/article/10.1007/s10817-016-9362-8)]
+  [[doi](https://doi.org/10.1007/s10817-016-9362-8)]
 - "Learning Rate Based Branching Heuristic for SAT Solvers",
   Liang et al. (2016)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-40970-2_9)]
   [[pdf](https://link.springer.com/pdf/10.1007/978-3-319-40970-2_9.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-40970-2_9)]
-- "Learning-assisted theorem proving with millions of lemmas"
+- "Random Forests for Premise Selection",
+  Färber & Kaliszyk (2015)
+  [[link](URLhttps://link.springer.com/chapter/10.1007/978-3-319-24246-0_20)]
+  [[pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.712.9179&rep=rep1&type=pdf)]
+  [[doi](https://doi.org/10.1007/978-3-319-24246-0_20)]
+- "Learning-assisted theorem proving with millions of lemmas",
   Kaliszyk & Urban (2015)
   [[link](https://www.sciencedirect.com/science/article/pii/S074771711400100X)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S074771711400100X)]
@@ -229,7 +273,7 @@ title (ascending).
   [[link](https://hdl.handle.net/2066/119984)]
   [[pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/119984/119984.pdf)]
 - "Overview and Evaluation of Premise Selection Techniques for
-  Large Theory Mathematics"
+  Large Theory Mathematics",
   Kühlwein et al. (2012)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-31365-3_30)]
   [[pdf](http://grid01.ciirc.cvut.cz/~mptp/premisealgos.pdf)]
@@ -272,7 +316,7 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-01090-4_15)]
   [[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-01090-4_15.pdf)]
   [[doi](https://doi.org/10.1007/978-3-030-01090-4_15)]
-- "Efficiently Learning Safety Proofs from Appearance as well as Behaviours"
+- "Efficiently Learning Safety Proofs from Appearance as well as Behaviours",
   Prabhu et al. (2018)
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-99725-4_20)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-99725-4_20.pdf)]
@@ -287,6 +331,10 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/2914770.2837664)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/2914770.2837664)]
   [[doi](https://doi.org/10.1145/2914770.2837664)]
+- "DeepMath - Deep Sequence Models for Premise Selection",
+  Irving et al. (2016)
+  [[link](https://proceedings.neurips.cc/paper/2016/hash/f197002b9a0853eca5e046d9ca4663d5-Abstract.html)]
+  [[pdf](https://papers.nips.cc/paper/2016/file/f197002b9a0853eca5e046d9ca4663d5-Paper.pdf)]
 - "Abstract Learning Frameworks for Synthesis",
   Löding et al. (2016)
   [[link](https://link.springer.com/chapter/10.1007/978-3-662-49674-9_10)]
@@ -314,7 +362,7 @@ title (ascending).
   Shafiq et al. (2020)
   [[link](https://arxiv.org/abs/2005.13299)]
   [[pdf](https://arxiv.org/pdf/2005.13299)]
-- "Awesome Machine Learning On Source Code"
+- "Awesome Machine Learning On Source Code",
   [[link](https://github.com/src-d/awesome-machine-learning-on-source-code)]
 
 ### 1.10. Artificial Intelligence for Formal Software Development
@@ -381,7 +429,7 @@ title (ascending).
   [[link](https://link.springer.com/chapter/10.1007/978-3-319-96145-3_1)]
   [[pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-96145-3_1.pdf)]
   [[doi](https://doi.org/10.1007/978-3-319-96145-3_1)]
-- "AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation"
+- "AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation",
   Gehr et al. (2018)
   [[link](https://ieeexplore.ieee.org/abstract/document/8418593)]
   [[pdf](https://files.sri.inf.ethz.ch/website/papers/sp2018.pdf)]
@@ -649,7 +697,7 @@ title (ascending).
   [[link](https://dl.acm.org/doi/abs/10.1145/3302504.3311806)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3302504.3311806)]
   [[doi](https://doi.org/10.1145/3302504.3311806)]
-- "Evaluating Model Testing and Model Checking for Finding Requirements Violations in Simulink Models"
+- "Evaluating Model Testing and Model Checking for Finding Requirements Violations in Simulink Models",
   Nejati et al. (2019)
   [[link](https://dl.acm.org/doi/10.1145/3338906.3340444)]
   [[pdf](https://dl.acm.org/doi/pdf/10.1145/3338906.3340444)]
@@ -706,7 +754,7 @@ title (ascending).
 ### 3.1. Executable Specifications
 
 - "Labor Division with Movable Walls: Composing Executable Specifications with
-  Machine Learning and Search (Blue Sky Idea)"
+  Machine Learning and Search (Blue Sky Idea)",
   Harel et al. (2019)
   [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048)]
   [[pdf](https://www.aaai.org/ojs/index.php/AAAI/article/view/5048/4921)]
