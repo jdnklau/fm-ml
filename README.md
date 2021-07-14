@@ -229,6 +229,10 @@ title (ascending).
   Blanchette et al. (2019)
   [[link](https://hal.archives-ouvertes.fr/hal-02381430/)]
   [[pdf](https://hal.archives-ouvertes.fr/hal-02381430/file/paper.pdf)]
+- "A Neurally-Guided, Parallel Theorem Prover",
+  Rawson & Reger (2019)
+  [[link](https://link.springer.com/chapter/10.1007/978-3-030-29007-8_3)]
+  [[doi](https://doi.org/10.1007/978-3-030-29007-8_3)]
 - "Guiding High-Performance SAT Solvers with Unsat-Core Predictions",
   Selsam & Bjørner (2019)
   [[link](https://link.springer.com/chapter/10.1007/978-3-030-24258-9_24)]
