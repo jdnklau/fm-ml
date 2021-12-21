@@ -14,8 +14,6 @@ publication year (descending),
 first author (ascending), and
 title (ascending).
 
-<!-- TOC depthFrom:2 depthTo:4 -->
-
 - [1. Applied Machine Learning for Formal Methods](#1-applied-machine-learning-for-formal-methods)
   - [1.1. Tool and Configuration Selection](#11-tool-and-configuration-selection)
   - [1.2. Synthesis and Repair](#12-synthesis-and-repair)
@@ -42,8 +40,6 @@ title (ascending).
   - [3.4. Pattern Recognition](#34-pattern-recognition)
 - [4. Unsorted Online Sources](#4-unsorted-online-sources)
   - [4.1. Courses](#41-courses)
-
-<!-- /TOC -->
 
 ## 1. Applied Machine Learning for Formal Methods
 
@@ -214,6 +210,7 @@ title (ascending).
   Buccafurri et al. (1999)
   [[link](https://www.sciencedirect.com/science/article/pii/S0004370299000399)]
   [[pdf](https://www.sciencedirect.com/science/article/pii/S0004370299000399/pdf?md5=50a73104607ae4fe280b602eb3fab87e&pid=1-s2.0-S0004370299000399-main.pdf&_valck=1)]
+  [[doi](https://doi.org/10.1016/S0004-3702(99)00039-9)]
 
 ### 1.7. Automated Theorem Proving
 
@@ -286,7 +283,7 @@ title (ascending).
   Urban & Vyskočil (2012)
   [[link](https://link.springer.com/chapter/10.1007/978-3-642-36675-8_13)]
   [[pdf](https://arxiv.org/pdf/1209.3914)]
-  [[doi](https://doi.org/10.1007/978-3-642-31365-3_30)]
+  [[doi](https://doi.org/10.1007/978-3-642-36675-8_13)]
 
 ### 1.8. Invariant Learning
 
