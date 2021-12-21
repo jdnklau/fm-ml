@@ -88,6 +88,10 @@ title (ascending).
 
 ### 1.2. Synthesis and Repair
 
+- "Neural-Backend Generators for Program Synthesis",
+  Bavishi (2019)
+  [[link](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-82.html)]
+  [[pdf](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-82.pdf)]
 - "Automatic B-model repair using model checking and machine learning",
   Cai et al. (2019)
   [[link](https://link.springer.com/article/10.1007/s10515-019-00264-4)]
@@ -668,7 +672,6 @@ title (ascending).
   Amodai et al. (2016)
   [[link](http://arxiv.org/abs/1606.06565)]
   [[pdf](http://arxiv.org/pdf/1606.06565.pdf)]
-  [[doi](https://doi.org/)]
 - "SoK: Towards the Science of Security and Privacy in Machine Learning",
   Papernot et al. (2016)
   [[link](https://arxiv.org/abs/1611.03814)]
